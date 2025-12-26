@@ -70,4 +70,4 @@ if __name__ == "__main__":
         user_agent="content_bot"
     )
     
-    scraper.scrape_and_save("nosleep", n_posts=200, output_file="nosleep_reddit.txt")
+    scraper.scrape_and_save("nosleep", n_posts=200, output_file="datasets/reddit_data.txt")
