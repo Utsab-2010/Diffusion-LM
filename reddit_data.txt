@@ -1,0 +1,2329 @@
+Title: [Project] From books to presentations in 10s with AR + ML
+
+Twitter thread: [https://twitter.com/cyrildiagne/status/1259441154606669824](https://twitter.com/cyrildiagne/status/1259441154606669824)
+
+Code: [https://github.com/cyrildiagne/ar-cutpaste/tree/clipboard](https://github.com/cyrildiagne/ar-cutpaste/tree/clipboard)
+
+Background removal is done with U^(2-Net) (Qin et Al, Pattern Recognition 2020): [https://github.com/NathanUA/U-2-Net](https://github.com/NathanUA/U-2-Net)
+
+**/!\\ EDIT:** You can now subscribe to a beta program to get early access to the app: [https://arcopypaste.app](https://arcopypaste.app)  !
+
+The future 🤯
+
+Simple yet very useful. Thank you for sharing the code.
+
+Almost guaranteed, Apple will copy your idea in 3, 2, 1....
+
+Ohh the nightmare of making this into a stable product... Enough to drive you mad just thinking about it
+
+Wtffff. Well that was incredible.
+
+Apple can’t wait to steal this and not credit the creators
+
+fantastic!
+
+[deleted]
+
+How does the Algorithm decide what it cuts out from the input pictures? 
+
+For example it only cut out the two people in the picture and not the surroundings.
+
+Amazing project though!
+
+#WITCH!  BURN THEM!
+
+Any sufficiently advanced technology is indistinguishable from magic.
+
+This will be amazing if released, even as a beta. Definitely can see this being very useful
+
+Really good work, thanks for sharing!
+
+I'm extremely impressed with it cutting dark hair from a brown background. Is that the pixel's camera doing the hard work or is it U^2_Net ? Have you tried it with other phones? How does it deal with feathering? Stunning demo & thanks for posting this.
+
+Super cool
+
+Wizardry!
+
+Woahhh that is so cool!!! I am wondering the speed wise from the initial snap till pasting it to computer.
+
+If we could get it done >1s I think this project would be really fun and useful. Allow me to fork the project ;)
+
+Thank youuu
+
+This is God like!
+
+Wow. What you did wlth AR is really creative and very impressive technically. Keep going dude you rock.
+
+Holy fucking shit my jaw hasn’t dropped like this since I saw the GPT-2 demo. This is absolutely unreal—it is so precise + how the hell do they interact with macOS like that? Wow. Awesome work pal, so much respect.
+
+Super cool demo.
+
+But the more interesting part to me is the app actually look at the computer screen to decide what target the image/content is pasted to. 
+
+Probably hard-coded, but super interesting idea.
+
+This is amazing. Congratulations!!!
+
+This is amazing! Thanks for sharing the code
+
+Awesome! Recognize the catalog from Coder le Monde
+
+That is so cool!
+
+Awesome, will try it definitely.
+
+Take my money
+
+God this, and swiping a window to my laptop from my phone with a simple gesture, is what I have been waiting for sooo long.
+
+cyberpunk level shit
+
+Wow. Thanks for sharing!
+
+This is really well done. From research to a simple yet useful use case!
+
+beautiful
+
+This is brilliant. Thanks for sharing...
+
+Say sike 🤯🤯
+
+I saw this the other day and I thought it was incredible. I'm a novice on programming but ill do my best to deploy this on my PC just to play around with it! Thanks a lot for sharing this with the world!
+
+Smart move
+
+That's some next level copy -paste !
+
+This is so cool! AI never ceases to amaze me.
+
+10 years ago people would laugh at this idea.
+
+Wow this is so helpful, insane
+
+This is so crazy!
+
+So good it looks fake af
+
+This is probably the coolest thing I have seen in a long while.  Great fucking work!
+
+Wow, this is sick
+
+You sir are a genius
+
+What are the edges cases when this doesn't work? Does this require certain lighting conditions etc? How does it know to extract both people from the image?
+
+Very impressive, thought it was fake at first.... 🤪
+
+Amazing!
+
+Wow.
+
+This gets 100 very nices
+
+This is insane.
+
+Man, this is awesome!
+
+This is amazing. If you have any intention of publishing this as an end user app, hit me up, I’ll get make sure you get sponsorship for all the GPUs and other compute you need.
+
+This is brilliant!
+
+This is some crazy Tony stark shit
+
+This is something really superb!!!!!!!!!!!  
+I loved the technology...
+
+AI and Machine learnings are actually contributing a lot in streamlining our daily processes. I mean, this is something, being a student I would need the most, instead of first emailing myself pictures from phone, then downloading them and inserting them in my doc.
+
+Woke up in the morning and this is the first thing I see. A day can’t get more inspirational.  I can’t thank you enough for sharing.
+
+Wow, this is epic!
+
+What is difference between this and taking photo and sending it with email to computer? 🤔 What is the main use case for this technology?
+
+I really hope your idea doesn't get stolen. Also how do I keep up to date with your progress?
+
+Did you train the ML model yourself? If so what data set did you use?
+
+How were you able to get integration with chrome and slides itself? Are you able to load custom software through Google Slides somehow?
+
+How do I do this?
+
+This is so cool! Is it really necessary to point the phone at the screen to paste it?  Or will it just paste it into whatever application is currently focused no matter what?
+
+[deleted]
+
+u/fabiomb el otro día decías que andaba porque tenía fondo de color blanco plano.
+
+I'm more impressed with the background extraction on the photo than with the multidevice "copy-paste"
+
+u/vRedditDownloader
+
+u/VeedditDownloader
+
+u/vredditdownloader
+
+That's so cool
+
+There's no way that took 10s to develop, install, try and record an 57 sec video of. I mean, yeah, technology and stuff, but not in 10s. Sorry.
+
+I will go through the damn code line by line!
+
+Is that a Google Pixel?
+
+I'm a bot, *bleep*, *bloop*. Someone has linked to this thread from another place on reddit:
+
+- [/r/mattslinks] [Augmented reality cut n paste](https://www.reddit.com/r/mattslinks/comments/ht7vs5/augmented_reality_cut_n_paste/)
+
+&nbsp;*^(If you follow any of the above links, please respect the rules of reddit and don't vote in the other threads.) ^\([Info](/r/TotesMessenger) ^/ ^[Contact](/message/compose?to=/r/TotesMessenger))*
+
+This is beast!! Deff on to something!
+
+Awesome.
+
+How do we use this
+
+more more..More..MOREEEEEE
+
+Dude...love ur copy paste...
+
+WITCH!
+
+What the fuuuuuuuuck?
+
+photoshop required ?
+
+Awesome project can I find the link where i can read the documentation.
+
+Just wow
+
+I am very happy seeing in your project. I am PhD scholar who is interested in AR research so I want the paper on this you submitted even I can join with you for further reading and research
+
+how does it know where to paste the image to?
+
+Omg! Thats awesome!!! I had a similar idea but using text
+
+u/vredditdownloader
+
+This is beyond science
+
+My 5 years daughter thought of something similar..for her she wants that you take the object out of the screen and you show its hologram presentation..she said that would be a hard project to achieve :))
+I will show her your project tomorrow, she will like it.
+
+Oh sure. I find this after spending 29 days scanning in 21 years of issues of an instructional magazine on a flat bed scanner
+
+[deleted]
+
+Really impressive if it works as well with unseen data.
+
+Still fun if it doesn't.
+
+This is clearly fake....the last screen shot proves it.
+
+In 3 seconds if you use anything else then MacBook 😏
+
+Ok, that’s the coolest thing I’ve seen in a long while.
+
+This is awesome.
+
+Tony Stark shit
+
+Good job
+
+Let we know when there's an easy and seamless way of doing this, or at least no-brainer
+
+Wow dude, I don't know shit about ML, all I can say is this is superpower
+
+I need this for editing for my small business. No more Adobe illustrator.
+
+fuck capitalism
+
+
+wreak havoc on the middle class
+
+You’re going to be rich
+
+Super coooool
+
+why the box color change at last？
+
+Insane bro. I hate apple but I gotta admin that their shared clipboard is insane.
+
+If it wasn't for the link with the code, I would have straight up thought you were trying to trick us :o
+
+This is insaneeee! I have a question about it's applications:
+
+is it possible to use this to extract information? For example if you scan a receipt could it create a digital version with each line editable?
+
+Holy smokes this is insanely awesome. Thank you
+
+I mean, technically now it's the past.
+
+Took words out of my mouth
+
+His license even allows commercial use, so they are legally allowed to do that
+
+Lol and he's using a pixel too
+
+Likely, and it will be easier for them, the processing could be done in the iPhone and uploading can be done through airdrop (which supports 'aiming' at people and machines to share files).
+
+Why would it be a nightmare?
+
+[deleted]
+
+They'll probably slap a patent on it too and sue the original creators.
+
+> Apple can’t wait to steal this and not ~~credit~~ **sue** the creators
+
+ftfy
+
+Already stolen and and implemented into the next iOS...
+
+Thanks!
+
+U^2-Net decided not to remove the background of these :)
+
+Check out the details for U^2-Net on the official repo: https://github.com/NathanUA/U-2-Net
+
+and any sufficiently understood magic is indistinguishable from technology.
+
+>, even as a beta
+
+The code is available, so you can play already with it :)   
+[https://github.com/cyrildiagne/ar-cutpaste/tree/clipboard](https://github.com/cyrildiagne/ar-cutpaste/tree/clipboard)
+
+It is 100% handled by U^2-Net: Check out the official repo for more information and samples: https://github.com/NathanUA/U-2-Net
+
+Yep maybe add a ghost non-transparent-background
+to make up for the delay of the BG removal.
+
+I'm just impressed by the copy paste AR stuff. Well done!
+
+Hi! The coordinates are automatically defined by the receiving software in this demo but checkout my precious demo where I use OpenCV SIFT to find the correct coordinates on the screen
+
+Please checkout the official U^2-Net repo for more information on the background substraction: https://github.com/NathanUA/U-2-Net
+Edge cases mostly are busy scenes when there are no particular salient element
+
+It just save time and headaches but the result is identical
+
+Although you get background removal for free in the process ;)
+
+Looks like it also recognizes the photo subject to only copy the link important bits. Also faster
+
+Thanks! For now the most updated news are on my Twitter!
+
+I'm using the pretrained model from U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection, Xuebin Qin, Zichen Zhang, Chenyang Huang, Masood Dehghan, Osmar R. Zaiane and Martin Jagersand: https://github.com/NathanUA/U-2-Net
+
+Juste the clipboard and pyautogui to send the "paste" keystrokes :)
+
+Checkout the repository!
+
+Good point! For now the code only paste at whatever app is active. In some apps (like Photoshop) you can paste at specific coordinates depending on where you point the phone
+
+Not yet ;)
+
+Ahí me gustó más 👍
+
+*beep. boop.* I'm a bot that provides downloadable links for v.redd.it videos!
+
+* [**Download** via https://reddit.tube](https://reddit.tube/d/1vfDX9G)
+
+* [Audio only](https://v.redd.it/v492uoheuxx41/audio)
+
+I also work with links sent by PM
+
+ ***  
+[**Info**](https://old.reddit.com/user/VredditDownloader/comments/cju1dg/info/)&#32;|&#32;[**Support&#32;me&#32;❤**](https://www.paypal.me/synapsensalat)&#32;|&#32;[**Github**](https://github.com/JohannesPertl/vreddit-downloader)
+
+*beep. boop.* I'm a bot that provides downloadable links for v.redd.it videos!
+
+* [**Download** via https://reddit.tube](https://reddit.tube/d/1vfDX9G)
+
+* [Audio only](https://v.redd.it/v492uoheuxx41/audio)
+
+I also work with links sent by PM
+
+ ***  
+[**Info**](https://old.reddit.com/user/VredditDownloader/comments/cju1dg/info/)&#32;|&#32;[**Support&#32;me&#32;❤**](https://www.paypal.me/synapsensalat)&#32;|&#32;[**Github**](https://github.com/JohannesPertl/vreddit-downloader)
+
+have you had a chance to do that? has anyone tried running that code on their device?
+
+Yes! But it also work with iphones
+
+*beep. boop.* I'm a bot that provides downloadable links for v.redd.it videos!
+
+* [**Download** via https://reddit.tube](https://reddit.tube/d/1vfDX9G)
+
+* [Audio only](https://v.redd.it/v492uoheuxx41/audio)
+
+I also work with links sent by PM
+
+ ***  
+[**Info**](https://old.reddit.com/user/VredditDownloader/comments/cju1dg/info/)&#32;|&#32;[**Support&#32;me&#32;❤**](https://www.paypal.me/synapsensalat)&#32;|&#32;[**Github**](https://github.com/JohannesPertl/vreddit-downloader)
+
+Hmm, I don't think the 2nd image with the 2 persons could have be done with OpenCV?
+
+What do you mean? The service runs remotely and it has never seen the images used in the video
+
+I guarantee it's not fake.
+
+Is the ELI5 version is this? - 
+
+1. The React Native application on the mobile takes a pictures
+2. The picture get uploaded to the server where the background is removed with u2-net, which is the brains of the operation
+3. The removed background is then communicated through a python script > Photoshop plugin to be added on to a running project or is saved as a transparent image.
+
+Right?
+
+Yes. But you will need to a run OCR instead of the background removing application (U\^2-Net)  OP is using.
+
+This would be the killer use case.
+
+How can it be the past if its happening now?... id say the now its the future and past overlapping for a jiffy of a second
+
+did you sue him
+
+[deleted]
+
+Well, why don't we already have cross-device AR interfaces and can swipe content between our devices seamlessly like Tony Stark? The U-net demonstrated here only provides a means to extract relevant sections of image data. The rest that needs to be done for this demo is far more difficult. Roughly, you need to identify the other device through the camera or NFC, pinpoint the relative position of the two devices for the onscreen insertion position, match the other device to a Bluetooth device or wifi connected device securely, set up a transfer, communicat data type and decide what should happen with the data... and do all of this across different OS and devices with different standards, handle poor connection, communicate all the issues to the user in a foolproof way. You can force the user to setup some of this manually, but then you'll loose 99% of the users and the product won't gain enough support/funding and gets dropped like a pair of Google glasses.
+
+Wait. I thought they'll sew my ass to the mouth of another person who accepted the ToS.
+
+But capitalism drives innovation by rewarding innovators. That's why we have all the smart humanitarian millionaires pushing humanity towards brighter future.
+
+/s
+
+I put up a public predictor API endpoint for the ML model so you don't have to battle with GPUs when playing with this. Simply start the server with `--basnet_service_ip http://basnet-predictor.tenant-compass.global.coreweave.com/` and that piece is taken care off.
+
+Beautiful thanks! I'm excited to try this.
+
+How long does inference take generally? Is your video realtime? Because it's surpringly fast for an HD photo from a phone.
+
+How do you handle the domain shift between digital images and photos of images captured with a camera?
+
+(i.e. perspective, glare, curvature, lighting)  
+Or do you just hope the pretrained network generalizes well enough?
+
+I see what you are talking about. Yess, definitely can do that!! OP is a badass
+
+If it removes the background you want.
+
+Oh...true. I was overthinking it haha
+
+RemindMe! 4 days
+
+Cool! I always assume the examples used in presentations are part of the training data unless told otherwise.
+
+~~From a quick look at the code, I guess it's based on this paper?~~  [~~http://openaccess.thecvf.com/content\_CVPR\_2019/papers/Qin\_BASNet\_Boundary-Aware\_Salient\_Object\_Detection\_CVPR\_2019\_paper.pdf~~](http://openaccess.thecvf.com/content_CVPR_2019/papers/Qin_BASNet_Boundary-Aware_Salient_Object_Detection_CVPR_2019_paper.pdf)
+
+&#x200B;
+
+Nevermind, the description on Github answers that question, was just to lazy to read it before jumping into the code :P
+
+Awesome! thanks for the reply! 
+
+Completely understand if you're not able offer this, but do you know of any good, reliable OCR services?
+
+All the ones I've found, tend to be geared towards a particular functionality and after testing several they just don't live up to the standard I'm expecting
+
+No it wouldn't, because it already exists in dozens of apps. Including Google Lens, installed on hundreds of millions of phones.
+
+Future, past, now is simply an illusion. Reality is one continuum, it can't be neatly divided into division as such. But, this kind of conceptualization might have tremendous utility in our daily life.
+
+Why bother patenting it? Does he have the money to patent it, does he have the money to protect the patent against apple or google, can it be patented, does he have the intellectual resources to patent...
+
+Patents are for companies to monetise their R&D, not for individuals to get rich. This dude would probably be happy enough getting some corporate credibility and could potentially lead a team if google or apple are interested in this.
+
+Yeah ok, we'll wait here to hear the news in 3 years about whether or not it got approved.
+
+Yeah man and this all those companies fault who use different standard for every fucking thing (microsoft and apple looking at u) .
+
+You just need to run some visualbasic to check the camera on the phone to know where on the pc it's pointing to, then send that image to the pc with the coords to paste the amethyst. I can do this with one weekend.
+
+What system does drive innovation then? Do you wanna say that socialism/communism pushed their country towards brighter future?
+
+Video is real-time but inference is don't on a 320x320 image. But that's only the resolution of the alpha mask , the image can have native reslution
+
+I will be messaging you in 4 days on [**2020-05-15 12:56:47 UTC**](http://www.wolframalpha.com/input/?i=2020-05-15%2012:56:47%20UTC%20To%20Local%20Time) to remind you of [**this link**](https://np.reddit.com/r/MachineLearning/comments/gh1dj9/project_from_books_to_presentations_in_10s_with/fq9lu04/?context=3)
+
+[**CLICK THIS LINK**](https://np.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5Bhttps%3A%2F%2Fwww.reddit.com%2Fr%2FMachineLearning%2Fcomments%2Fgh1dj9%2Fproject_from_books_to_presentations_in_10s_with%2Ffq9lu04%2F%5D%0A%0ARemindMe%21%202020-05-15%2012%3A56%3A47%20UTC) to send a PM to also be reminded and to reduce spam.
+
+^(Parent commenter can ) [^(delete this message to hide from others.)](https://np.reddit.com/message/compose/?to=RemindMeBot&subject=Delete%20Comment&message=Delete%21%20gh1dj9)
+
+*****
+
+|[^(Info)](https://np.reddit.com/r/RemindMeBot/comments/e1bko7/remindmebot_info_v21/)|[^(Custom)](https://np.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5BLink%20or%20message%20inside%20square%20brackets%5D%0A%0ARemindMe%21%20Time%20period%20here)|[^(Your Reminders)](https://np.reddit.com/message/compose/?to=RemindMeBot&subject=List%20Of%20Reminders&message=MyReminders%21)|[^(Feedback)](https://np.reddit.com/message/compose/?to=Watchful1&subject=RemindMeBot%20Feedback)|
+|-|-|-|-|
+
+Have you tried tesseract? One year back i tried it with a little project, it work quite well out of the box.
+
+[deleted]
+
+Where can I read more about this ?
+
+The time bar says otherwise
+
+https://xkcd.com/927/
+
+Sure! Go for it buddy.
+
+I think if workers were to own their workplaces, instead of stock holders, we would be living in better world. In effect that means you can only own a piece of company if you work there.
+
+This is theory, I don't think this has ever been tried in any existing society. There are some worker-cooperatives but they have to compete with capitalist companies which do not have the moral restrictions a worker owned company have, so they are naturally at a disadvantaged position.
+
+no never heard of it! kicking myself now that I wasn't able to find it whilst looking for a solution.
+
+This looks promising so thank you :) I'm a designer with some programming knowledge myself so I imagine it'll take a while to really test it out for my purpose.
+
+Thanks so much again!
+
+Makes sense!
+
+Idk I cooked that up [I'm a wannabe philosopher ;)] but you can find many parallels in some Philosophers' works like Neitzsche's Cause and effect theory.
+
+I must add, both Space and Time are wholly inference based derivatives, we can't or haven't perceived them. All the Space-time continuum metaphysical talks are purely theoretical. No experiment have given emperical evidence of them.
+
+It's a social construct.
+
+Wow never thought like that cheers !!!
+
+dId He dO It
+
+So worker-owned companies have been tried and failed, but it's capitalism's fault?
+
+Actually, how do these things even work? Who makes the decisions in the absence of clear owner? What constitutes a "worker"? How are the company shares divided between workers - evenly, or according to their positions?
+
+Just to be clear: Apple is a company that was owned by its workers initially. Those workers decided to sell a piece of it to investors early on because they (the workers) decided it would help them grow faster. Then they were successful, and they (the workers) decided to sell more of the company so they could buy nice houses and make charitable contributions. Apple *is* the result of a worker-owned-company system, albeit one that gave those workers the freedom to sell their stock for various reasons along the way.
+
+Thank you. Sounds fascinating!
+
+[You Just Wrinkled My Brain](https://www.youtube.com/watch?v=WaUCEFPCg6A)
+
+>So worker-owned companies have been tried and failed, but it's capitalism's fault?
+
+That's like saying "not stealing has been tried but it was less profitable to stealing, so now you are blaming thieves that the losers who don't steal lost?"
+
+>Actually, how do these things even work? 
+
+You can research these topics yourself. For example /r/Anarchy101 has smarter people than me to explain these topics.
+
+That's interesting. Didn't know that. But Apple was worker-owned company until it turned into capitalist company. When they hired their first employee who didn't own a piece of that company, they made an ideological choice to exclude that employee from the profits the company produced and in effect created hierarchy inside their company.
+
+>"not stealing has been tried but it was less profitable to stealing, so now you are blaming thieves that the losers who don't steal lost?"
+
+The reason not to steal is because there are deliberate mechanisms in place to dissuade, not because it's a less efficient way to make money. In contrast, socialism *is* less efficient than capitalism.
+
+>You can research these topics yourself.
+
+Why is it that every single anti-capitalist assigns homework when poked with a stick? Consider that you are arguing in favor of uprooting industry as a whole and can't even articulate why.
+
+>This is theory, I don't think this has ever been tried in any existing society.
+
+This is another favorite. You are betting the farm -- hell, *society* -- on a theory. On something that has not even been validated. Doesn't that seem a little bonkers to you?
+
+Actually, in most countries stealing is less profitable than any legitimate way of earning money thanks to law enforcement. So in the same vein, it's USA government's fault for letting capitalism go unchecked there, but no fault of the system itself.
+
+I suspect for much of Apple’s life, the vast majority of Apple employees owned a piece of the company. I don’t know if Apple Store employees do - they may not - but Apple stores are a comparatively recent addition and I bet the engineering staff through the 90s were employee-owners as that’s the norm in Silicon Valley. At some point Apple made a decision to contract out manufacturing, so the people actually building Apple computers and phones are mostly not Apple employees and not owners. And it was certainly a significant decision to bring on venture capital investors (and later public shareholders) who were not employees of the company (though I think history would show pretty clearly that if they hadn’t done that we wouldn’t have Apple today). 
+
+But I do think it’s worth noting that all of these *decisions* were, at Apple, mostly made by the early employees / founders, not by third party shareholders. That’s idiosyncratic to tech, an industry dominated by strong founders, but it’s true at Apple, at Google, at Facebook, at Amazon, etc - the decision makers are the founding employees. In fact at many of these companies the founders have put in place systems such that “capitalist” public owners explicitly DON’T have control of the business, only the founders do, long after the founder ownership levels have decreased.
+
+Even Goldman Sachs was a “partnership” for most of its history - ENTIRELY owned by a subset of its employee population. This is true for every major large corporate law firm today. Just because these businesses are “employee owned” clearly doesn’t mean they’re run “for the benefit of the people” - they’re run by rich early employees who want to get richer (and maybe have other motivations, like building great products, or personal celebrity, or whatever). 
+
+I am a huge fan of “employee equity ownership” - most startups are built on the back of this idea - though most employees in turn eventually want to be able to sell their shares to other people (so they can buy houses and cars, or make charitable contributions or whatever). But I’m not sure employee ownership is a radical departure from ‘capitalism’ as you describe it - the ends ultimately look pretty similar to companies that are not employee owned.
+
+> Why is it that every single anti-capitalist assigns homework when poked with a stick? 
+
+Because I'm not your teacher. You look up this stuff yourself if you are interested.
+
+>You are betting the farm -- hell, society -- on a theory. On something that has not even been validated. Doesn't that seem a little bonkers to you?
+
+That's the dilemma of sociology in general. You can't run controlled experiments without affecting human lives and you can't remove yourself from the equation and be a neutral observer because you are part of that society.
+
+> Because I'm not your teacher. You look up this stuff yourself if you are interested.
+
+I am interested, and I have tried to look it up. I'm pointing out that it's not a compelling argument to say "go look it up" when you are trying to change the status quo.
+
+It doesn't matter whether you convince me or not; I'm not here to be convinced, and you aren't here to convince me. The problem is that *no one* can seem to articulate why we should be socialist. It always ends up as a homework assignment no matter who I talk to. 
+
+>That's the dilemma of sociology in general.
+
+I agree. 
+
+Fortunately for capitalists (and unfortunately for you), capitalism isn't the outcome of a controlled experiment. Rather, it is [*emergent*](https://en.wikipedia.org/wiki/Emergence). The free market exists as a result of every individual acting according to his or her individual incentives, not because a committee decided that this is the way we should do it.
+
+So not only is the statement that we should uproot the entire economic system incredibly arrogant, since it is predicated on the assumption that you will implement it properly (in the context of the incentives that exist for the people implementing it), proving that it will work at all requires evidence that cannot be obtained. As you noted, there is no way to conduct a controlled experiment in this area, so we are kind of stuck with what we've got.
+
+[Here](https://en.wikipedia.org/wiki/Holodomor) is what happens when you get too clever.
+
+================================================================================
+
+Title: [D] A Demo from 1993 of 32-year-old Yann LeCun showing off the World's first Convolutional Network for Text Recognition
+
+The fact that they also had to know the location of the numbers and that the algorithm was robust to scale changes is impressive for 1993
+
+It's not like they just solved MNIST in 1993, it's one step above that
+
+Every data scientist today is truly standing on the shoulders of giants.
+
+awesome to see
+
+TIL audio hasn’t been invented until 1994
+
+And yet websites still think those obfuscated texts are a good test for robots
+
+Anyone know who the other guys at the end are?
+
+Never going to complain about not having a strong enough GPU again. Very cool.
+
+Actually, he was 32 years old when he pressed the button. He was 33 by the time he got the results back.
+
+Wonder what was the RAM and computing power of the system.
+
+Many don’t know it, but before it was done such text recognition was considered impossible, just like AGI and other hard problems. I think text recognition in mail was the first successful real world application of AI.
+
+MNIST irl
+
+that was certainly more wholesome than the other historic computer vision video, [https://www.youtube.com/watch?v=8VdFf3egwfg](https://www.youtube.com/watch?v=8VdFf3egwfg)
+
+But the question is: is it the validation set? 😁
+
+Very inspiring as I remember these days. Lot of hard work and at the cutting edge.
+
+So why did it take 30 years to get this far?
+
+So then what took so long for it to catch on? Why did it take another 30 years if they knew the power of cnn's?
+
+Uh.  Sorry, no.
+
+[The CNN was invented by Hubel and Weisel in 1959, the year before Yann LeCun was born, under the name "neocognitron."](https://en.wikipedia.org/wiki/Neocognitron) 
+
+LeCun also didn't make them first.
+
+[The CNN was first implemented by Kunihiko Fukushima in 1979](https://search.ieice.org/bin/summary.php?id=j62-a_10_658), 14 years before this video
+
+(Reference translated is Journal of the Institute of Electronics, Information and Communication Engineers A Vol.J62-A No.10 pp.658-665, October 25, 1979, ISSN 0373-6091)
+
+What Yann LeCun actually brought to the party was the modern approach to training them.  He did that in 1984, not 1993.
+
+And the rest is history
+
+[deleted]
+
+Nice keeb.
+
+u/savevideo
+
+That is so satisfying
+
+The first set of numbers was Yann LeCun's phone number at bell labs.
+
+Still accurate than tesseract lol 😂
+
+So why am I still doing captchas
+
+Yann LeCun's tweet on who the other guys are, and who the cameraman is - 
+https://twitter.com/ylecun/status/1347268914263306242?s=20
+
+Better than tesseract
+
+But still, to this date, they cannot recognize traffic lights
+
+incredible! pay tribute to him
+
+On some comments about possible tweaks/tricks in this video:
+
+I have had the privilege to attend professor Yann's classes at NYU. 
+From whatever little I understand of him - he has high levels of integrity, and I do not see him trying some cheap tweaks and fixes...He was committed to solve a problem in the best way possible and not just for likes and hearts ☺️.
+
+And without high level of integrity, you can't go from lab to national level in short time. 
+ 
+People often underestimate what it takes to be unanimously accepted as one of the godfathers of current hottest trend. This doesn't discount the effort of forefathers or future generations...
+... but let's not undermine Prof's integrity and commitment by making such frivolous comments. In fact, it is only our loss, if we fail to see that.
+
+Cant see his right hand
+
+Outside of the CNN achievements the rest is actually impressive too, and I'm absolutely amazed that the interface is so responsive. In 1993.
+
+What a boss!
+
+Fukushima’s neocognitron came almost two decades earlier.
+
+Amazing!  I’ve cited Professor LeCunn multiple times and am always humbled by his work — this is why I tell students that they are standing on the shoulders of giants when they do research.  Love this video!!!
+
+Are you sure you’re a robot?
+
+WOW !!! Impressive !
+
+Where was the video shot?
+
+Weirdly cool
+
+Apple needed 30 more years
+
+I guess too many people underestimate what could be accomplished with a little and tons of passion and time
+
+Agree - it was 6 years later until MNIST was even released.
+
+I guess they had a preprocessing step to identify, center and scale each digit image before feeding into the neural network. It’s not that hard with feature engineering.
+
+The video has lots of cuts, and the numbers never obscures an important part of the image...    I suspect each of those tests had tweaking and tuning to make it work...
+
+Love how happy they look!
+
+I was born 1982. We didn't start hearing shit until 1995. That was an absolutely wild year. It created a real musical renaissance.
+
+Can confirm.  That's the year I got a sound card.
+
+That's like when in 1961 the world suddenly changed from black-and-white to color
+
+there is a reason why captcha is becoming obsolete. At least the text based version.
+
+Also, captcha actually digitize books. This is why there are 2 tests, not 1. So in a sense, we were training the robots filling the captchas.
+
+I don’t think it’s meant to filter that way. Bots usually are built with speed in mind so it recognises and fills in the blanks virtually immediately.
+
+That and captchas are also useful for labelling training datasets manually (user input). But correct me if I’m wrong though.
+
+It serves two purposes. It defeats 99.99% of bots, and it maps images to human inputs to train their image recognizer networks.
+
+Unless someone cares enough about your little website to train an AI to solve your captcha they're still not a terrible idea. I don't think there are any AIs that are generic enough to solve *all* obfuscated text captchas yet.
+
+Obviously it's not going to work for large sites but none of them use that method anymore anyway.
+
+Am son of the guy in the chair (Rich Howard, collaborator and director of the silicon integrated circuit lab at the time). He said the guy in orange was a technician and computer whiz named Donnie Henderson.
+
+err, Kurzweil had an OCR product in 1976: [https://en.wikipedia.org/wiki/Ray\_Kurzweil#Mid-life](https://en.wikipedia.org/wiki/Ray_Kurzweil#Mid-life)
+
+Bayesian classifiers as the first email spam filter?
+
+Not sure the year, but our lives would be completely different if it wasn’t for it.
+
+> Many don’t know it, but before it was done such text recognition was considered impossible
+
+By the time LeCun did this, text recognition was common at banks for scanning checks, in children's toys, and was the basis of the Cue:CAT.
+
+You're making this up.
+
+OCR was common by the early 1970s, almost 30 years before this.
+
+No
+
+You are NOT correct about Hubel and Weisel.
+
+Hubel and Weisel did research on visual cortex in real brains (in cats) and it was awesome (they got Nobel Prize for it). But they did not invent CNNs.
+
+You can read their paper \[1\] you don't have to be a biologists to understand most of it. From their work one can deduce what neurons in V1 do. It was later even verified that some of these neurons realize functions similar to Gabor filters, but (as I remember) that was even later then neocognitron.
+
+It is true that their findings did *inspire* creators of neocognitron \[2\] but that's about it.
+
+\[1\] [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1363130/pdf/jphysiol01298-0128.pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1363130/pdf/jphysiol01298-0128.pdf)
+
+\[2\] Fukushima, Kunihiko, and Sei Miyake. "Neocognitron: A self-organizing neural network model for a mechanism of visual pattern recognition." *Competition and cooperation in neural nets*. Springer, Berlin, Heidelberg, 1982. 267-285.
+
+And to add to this, people thought NN's were a joke until a CNN won an image recognition contest in 2012, which is what put them on the map.  Before that they were obscure and overlooked.
+
+at least, read the title
+
+###[View link](https://redditsave.com/info?url=/r/MachineLearning/comments/kuc6tz/d_a_demo_from_1993_of_32yearold_yann_lecun/)
+
+
+ --- 
+ [**Info**](https://np.reddit.com/user/SaveVideo/comments/jv323v/info/)&#32;|&#32; [**Feedback**](https://np.reddit.com/message/compose/?to=Kryptonh&subject=Feedback for savevideo) &#32;|&#32; [**DMCA**](https://np.reddit.com/message/compose/?to=Kryptonh&subject=Content removal request for savevideo)&#32;|&#32;[**Donate**](https://ko-fi.com/getvideo)
+
+Yes. Back then, the proportion of developers who could hand-write a new graphics algorithm in assembler or C was considerably higher, since that was often how it was done anyway. Necessity is a great motivator. The non-ML part of this problem is more tedious than difficult.
+
+Maybe I’m misunderstanding, but isn’t the whole point of CNNs that the location of the digits doesn’t matter?
+
+This system ended up deployed in banks to parse written checks, so I don't think it was tweaked just for these examples, but they did expect to have fully visible digits.
+
+I have had the privilege to attend professor Yann's classes at NYU. 
+From whatever little I understand of him - he has high levels of integrity, and I do not see him trying some cheap tweaks and fixes...He was committed to solve a problem in the best way possible and not just for likes and hearts ☺️.
+
+And without that level of integrity, you can't go from lab to national level in short time.
+
+[removed]
+
+I remember when we got sound in school for the first time there was alot of realization of where smells were actually coming from that day
+
+Imagine if The Bends was the first sound you ever heard.
+
+Yeah, well I was born in 72 and we ate rocks for breakfast!
+
+Yeah, on a PHPBB forum I manage, the bots can get through the text-based captchas very easily. But they still struggle with simple questions like "In what State is this club based?"
+
+You’re definitely correct about the captchas.  
+It’s no coincidence that most of the objects they ask you to recognize are cars, crosswalks etc.  
+They basically get free labor to help them build a giant dataset fir training self driving cars.
+
+what would be the problem with a little delay?
+
+As I make my living making bots and doing automation, captcha is just part of the job. Solving captcha isn’t a special thing.
+
+“I’m not a robot” - select crosswalk, identify license plates, etc. are for training self driving vehicles and finding the house address was for google maps. 
+
+We should be paid for doing reCaptchas. However some people actually do get paid for these tasks.
+
+That's super cool lol. Did this invention have a big impact on their career?
+
+Correct me if I'm wrong, but doesn't normal font imply a "set font" rather than handwritten characters?
+
+Still impressive but a different problem from MNIST and generally reading the messy writing of humans.
+
+But Schmidhuber had already written the paper in 1962
+
+> Bayesian classifiers as the first email spam filter?
+
+You're off by about 9 years.  Bayesian classifiers didn't emerge as spam filters until approximately 1996.  They are currently believed to be first published by [Sahami et al in 1998](http://robotics.stanford.edu/users/sahami/papers-dir/spam.pdf).  That paper describes secretly internally using the technique in late 1996, and is the earliest known published discussion.  The internet at large caught on in 1999, just 22 years ago.
+
+The word SPAM actually comes from IRC and MUDs; we had spam filters long, long before email had spam, thanks to terminal washes and things of that nature.  The earliest known IRC spam filter was the `anarchy eris.berkeley.edu` stripper, which didn't work well enough, and led to the split of Jakko's original network to create eris-free net (EFnet is fundamentally named for a spam host removal.)
+
+If you count the invention of the q-line as an anti-spam strategy, then IRC invents spam filtering in 1991.  If you require message or origin testing, IRC invents it in 1992 instead.
+
+If you're old enough, you remember when Bayesian Filtering turned spam filtering from an ongoing joke into something that actually worked.  This was one of `gmail`'s early advantages.
+
+[removed]
+
+> It is true that their findings did inspire creators of neocognitron [2] but that's about it.
+
+Uh, no, they're where that name comes from.
+
+What specific difference do you imagine exists between the neocognitron and CNNs?  They're both striding convolutions as a reduction for inputs.
+
+I'm not sure why you believe this.  Neural networks have been a big deal since the 1950s, taking down investments of half a billion at a time from the military for 70+ years now.
+
+Has this changed really ? :) In number of engineers with these skills, certainly, in proportion of developers, this remains to be seen. Python is the syntactic sugar but who goes really in and looks under the rug ?
+
+Today's software are thousands times less efficient, because of all the overhead have been added layers on top of layes don't do any real work. Think about after all the closest, cabinets, drawers, boxes, organizers and wrappers, you still get the same pair of old socks and everyone cheers: "Yeah! It works! We got the socks!", that's what modern software actually is. But thank to these overhead, this industry have enough investment to support millions of overpaid software engineers, and most important of all, thousands of billionaires.
+
+The assm skill was crazy back in the day! Nowadays I wouldn't use assm even with an 8bit microcontroller because I'm too lazy.
+
+CNN is robust to translation but not invariant to scale and rotation. Max pooling can be used to to combine detectors that trained for different scales and rotations.
+
+Did LeCunn make a lot of money from it?
+
+I don't doubt that his approach works, or his scientific integrity - simply that for each demo he might have loaded a different model for example (trained for different sizes or handwritten/typed text).
+
+This thread feels like r/KenM material
+
+At least you were born after color was invented, back in '53.
+
+Or "What is god"?
+
+I wish I could opt out. I don’t want to train skynet lol
+
+It greatly reduced the rate at which a bot can do whatever. With no delay something like filling out a form could probably be done thousands of times a second, but if you introduce a 0.1s delay by requiring some model to run then suddenly the maximum rate you can automatically fill out the same form is 10 times a second.
+
+Additionally, any more hurdles will naturally mean people need to be more sophisticated to get past them and you'll filter out a lot of the lowest effort bots.
+
+Also running a model involves computing costs
+
+That sounds fun. You have a site or a blog?
+
+Rich was already close to retirement at the time, so not really. Not sure about Donnie.
+
+Yann LeCun got the turing award for it
+
+In the wiki page (I put it at the right chapter) they state it was supposed to be "omni-font" as in reading all types of text, while *older* systems only recognized some set fonts. Note that there were already functional devices. Of course, those probably were of much worse quality than LeCun's small CNN, I just wanted to point out the person I'm responding to is full of shit.
+
+> Correct me if I'm wrong, but doesn't normal font imply a "set font"
+
+1. You're wrong
+1. Kurtzweil didn't invent this either
+1. The work being discussed here, the CNN, is actually from the late 1950s, from before LeCun was born
+
+**[Magnetic ink character recognition](https://en.wikipedia.org/wiki/Magnetic ink character recognition)**
+
+Magnetic ink character recognition code, known in short as MICR code, is a character recognition technology used mainly by the banking industry to streamline the processing and clearance of cheques and other documents. MICR encoding, called the MICR line, is at the bottom of cheques and other vouchers and typically includes the document-type indicator, bank code, bank account number, cheque number, cheque amount (usually added after a cheque is presented for payment), and a control indicator. The format for the bank code and bank account number is country-specific. The technology allows MICR readers to scan and read the information directly into a data-collection device.
+
+[^(About Me)](https://np.reddit.com/user/wikipedia_text_bot/comments/jrn2mj/about_me/) ^- [^(Opt out)](https://np.reddit.com/user/wikipedia_text_bot/comments/jrti43/opt_out_here/) ^(- OP can reply !delete to delete) ^- [^(Article of the day)](https://np.reddit.com/comments/k9hx22)
+
+**This bot will soon be transitioning to an opt-in system. Click [here](https://np.reddit.com/user/wikipedia_text_bot/comments/ka4icp/opt_in_for_the_new_system/) to learn more and opt in. Moderators: [click here](https://np.reddit.com/user/wikipedia_text_bot/comments/ka4icp/opt_in_for_the_new_system/) to opt in a subreddit.**
+
+NNs have definitely had a ton of research, so I agree that they weren't overlooked. However, up until 2012 they weren't very useful for most applications. Throughout the 2000s, SVMs and tree-based models (like random forests) were SOTA for most tasks. So most researchers put their focus there. 
+
+2012 marked a transition though, as we then had the hardware support to efficiently train much larger models. This allowed NNs to become SOTA in many tasks and thus the explosion in interest
+
+I learned it here: https://youtu.be/uXt8qF2Zzfo
+
+In terms of what I intended to say, it's changed a lot. It wasn't an obvious career intially, so it caught a lot of people with a passion for it. The normal path for anyone who wanted visual output or realtime performance was to learn C and assembly. Operating systems were permissive, and memory mapping for access to video memory was either straightforward or documented well enough. Being able to do such things came with the job.. and if someone couldn't do it, that'd disqualify from a big chunk of the industry.
+
+I think you may have been referring to necessity being a great motivator.. and its converse -- that lack of necessity is a great blocker. Yep, I would agree. Lots of people in ML would now struggle somewhat with these basic graphical operations, even though the preparatory learning and experience required for it is now much less.
+
+I try to do and it is not pretty. Years of toil to make that one layer of cnn faster by inventing new winograd based algorithms. Working on the models are always more recognized.
+
+I think that's really cynical. Memory safe languages are a gigantic benefit to society in terms of security and stability.
+
+Such inefficiencies being permissible has allowed technology to flourish; a lot of programs would never have been written without being wasteful, see VS code vs Vim or Slack over IRC. IRC and Vim are nice cannot be mainstream and the only editor respectively. I don't see online web apps existing like Google Docs if everything had to be native speed fast. I've seen multiple homeless people with a card reader selling magazines, that's how cheap software has got over time that even homeless people have contactless.
+
+Arguably the progression of technology isn't what I'd have wanted to see but it isn't all bad. You can't help but wonder why something is slow on your 4GHz multicore CPU at times though haha.
+
+No, he was an employee at Bell Labs, the product and patents belonged to Bell Labs.
+
+When AT&T spun off Lucent in 1996, the patents went that way but the computer vision researchers stayed in the remaining AT&T Labs, and they couldn't even sell or improve the product without having the rights to the patents.
+
+LeCunn was an underdog for most of his life, the deep learning explosion only started happening around 2012 with AlexNet, when conv nets started getting all the attention.
+
+Here's a sneak peek of /r/KenM using the [top posts](https://np.reddit.com/r/KenM/top/?sort=top&t=year) of the year!
+
+\#1: [KenM on billionaires](https://i.redd.it/tl38stlg70g41.jpg) | [164 comments](https://np.reddit.com/r/KenM/comments/f1j7a9/kenm_on_billionaires/)  
+\#2: [Ken M on conspiracy theorists](https://i.redd.it/7inbjzicewo41.jpg) | [88 comments](https://np.reddit.com/r/KenM/comments/fp01kq/ken_m_on_conspiracy_theorists/)  
+\#3: [One of my favorites over the years.](https://i.imgur.com/vjhwVXg.jpg) | [139 comments](https://np.reddit.com/r/KenM/comments/hmhwzo/one_of_my_favorites_over_the_years/)
+
+----
+^^I'm ^^a ^^bot, ^^beep ^^boop ^^| ^^Downvote ^^to ^^remove ^^| [^^Contact ^^me](https://www.reddit.com/message/compose/?to=sneakpeekbot) ^^| [^^Info](https://np.reddit.com/r/sneakpeekbot/) ^^| [^^Opt-out](https://np.reddit.com/r/sneakpeekbot/comments/joo7mb/blacklist_viii/)
+
+Automation can be a very secretive thing and very grey so I can't talk about projects or the details.
+
+big if true
+
+Yup, that exact sentence speaks about normal fonts, I referred to.
+
+>  However, up until 2012 they weren't very useful for most applications.
+
+At that time, they were already in use by every call center and bank on earth, were running in every copy of Windows, MacOS, and Android, had dominated speech to text for almost 20 years, et cetera.
+
+Between Windows and MacOS, they were in over 50% of US homes.
+
+For color, ***The US phone system started using neural networks for de-noising in 1959, bringing their use to almost 200 million people***.
+
+.
+
+> 2012 marked a transition though, as we then had the hardware support to efficiently train much larger models.
+
+Respectfully, this is just kind of not true.
+
+I'm sorry, I'm not watching a 50 minute video to try to figure out why you believe that one of the world's largest intellectual pursuits was obscure or overlooked until an image recognition contest.
+
+My expectation is that whatever the video actually said was misunderstood.  Have a timestamp?
+
+“Lack of necessity is a great blocker” - I’m stealing that
+
+\>No, he was an employee at Bell Labs, the product and patents belonged to Bell Labs.
+
+I would just like to point out that in other countries (e.g. Germany, France Japan), inventors of a patent are entitled to a percentage of the revenue that this invention generates.
+
+This is not the case in the US, though.
+
+Oh yes, sorry. I think it's not a single set font, but at least several. But I also think you're right and this was made for printed fonts, so "normal" might mean "very common fonts".
+
+I'm not saying they weren't useful. They clearly had use cases as you mentioned. 
+
+But if you look through ML papers you can clearly see an increase in interest after 2012. And in my experience as an ML engineer, there was a similar increase in interest on the business side after 2012 as well (though often lagging behind SOTA by a few years)
+
+He says it in the beginning of the video.
+
+I figured it's probably all printed fonts that aren't cursive or Comic Sans. You're definitely right that it's multiple, I think the limitation is just on the type of font.
+
+> But if you look through ML papers you can clearly see an increase in interest after 2012.
+
+ML papers still haven't caught up to their 1950s heyday, either in volume or in range.  As an issue of measurable fact, we continue to reel not just from the second AI winter, but also from the first.
+
+No, sir, today we are not inventing Lisp or Symbolics.  
+
+You keep saying SOTA.  This suggests to me that you're an internet fan.  Actual academics and actual industry people don't say that.
+
+Please have a good day.
+
+I watched the first three minutes.  I don't see anything supporting your claim, or any related evidence.  A timestamp would provide falsifiability, but you declined.
+
+There is ample evidence that these were being used by industry for decades, taught at thousands of universities, being discussed by the United Nations.
+
+Anyone who's ever seen Star Trek: TNG or Terminator 2 had seen them in the popular consciousness for decades at this point.
+
+Every bank had been using them for check scanning for 20+ years at the described point.
+
+There were more than a dozen instances where over a billion dollars was invested at a single time into the "overlooked and forgotten until an image contest" field.
+
+Please have a nice day.
+
+Clearly you haven't read many papers published in the last decade then. For better or worse, the term SOTA does show up in recent deep learning papers.... I've also definitely heard it used in my experience within industry as well. It's not super common, but that's a really weird thing to try to gatekeep on
+
+The opening concept is conveyed from 00:00 to 5:22.
+
+I'm sorry you keep ignoring the evidence and referring to wide swaths of time that do not seem to say what you claim.
+
+Claims are concrete.  If he actually says this, you should be able to give a timestamp.  I can't find it, and doubt your interpretation.
+
+Common sense says that even if he does say this, just looking at the contrary evidence would be enough to set him aside.  Mark Z Jacobsen is also a teacher at a prestigious university, y'know?  So is Scott Atlas.
+
+If the evidence disagrees with an academic, believe the evidence.  I can't even find the academic saying what you claim, and it seems like you can't either.
+
+Please have a good day.
+
+I was in the industry before 2012.  I have first hand experience.  I remember it too.  If you will not take it from an MIT professor teaching the topic, then who will you take it from?
+
+================================================================================
+
+Title: [D] This AI reveals how much time politicians stare at their phone at work
+
+Voting takes forever. What exactly are they "supposed" to be doing during a time when they're not allowed to talk to their neighbors? This is just "look busy" toxic work culture lol
+
+The title is a bit misleading, since the percentage of each rectangle is most likely the confidence of the classifier that detects these objects. It is not the percentage of time each individual uses their phone in.
+
+Afaiik this is actually an art project, designed to showcase surveillance and make politicians aware they are being surveilled too.
+
+>Every meeting of the flemish government in Belgium is live streamed on a youtube channel. When a livestream starts the software is searching for phones and tries to identify a distracted politician. This is done with the help of AI and face recognition. The video of the distracted politician are then posted to a Twitter and Instagram account with the politician tagge
+
+So, this tries to identify 'distracted' politicians, but only includes phones and excludes staring at laptops and tablets - for some reason? Is there a reason?
+
+All I see is a system that detects whether some politician is using their phone or not.
+
+Disregarding my (negative) biases towards politicians, this honestly says nothing of whether they're distracted or doing productive/non-productive work on their phones/tablets/laptops.
+
+[deleted]
+
+Better create a sleeping detector
+
+[removed]
+
+So probalistic facial recognition and smartphone utilization? How do you, or the viewer, know that they're not working?
+
+Staring at phone may not always be unproductive if that is what being implied by this study. Lot of useful work is being done using phones now a days.
+
+Cute project, utterly worthless at producing any valuable insights.
+
+Soon: Your employer bought this AI that tells them how long you look at your phone at work. They use this to rank you against your peers to determine career progression.
+
+Not useful in Italy. A lot of them doesn't even show up in parliament...
+
+what you should do is show the amount of time they spend with each lobbyist.
+
+Amazing. Now we just need a model to determine how much of that time is spent watching porn and playing Raid Shadow Legends.
+
+So, laptops and tabs/tablets are fine, phones are not.
+
+they can be taking notes or working.
+
+If its so important make a no phones rule, otherwise that's like judging a lions hunting ability by the time it sleeps.
+
+So, politicians are also human. I can't say I'm even a little surprised.
+
+I hate politicians as much as the next person… but they could just as easily be doing work on their phones.  It is how people communicate after all.
+
+This reminds me of boomer comics
+
+This is kinda terrifying. Maybe you find it funny when it’s politicians, but what happens when corporations turn this dystopian tech on their employees? 
+I love machine learning, but we absolutely needs regulations on things like this.
+
+I hate how little care most politicians have for their job. 
+
+Well I guess they work to keep their positions but I feel like after that it’s pretty minimal effort. We should lower their wages.
+
+Source: https://driesdepoorter.be/theflemishscrollers/
+
+Genius, now maybe we should tell their mood based on their facial expressions
+
+People are way too focused on the why and not enough on the what.
+
+Who cares that it's not a perfect representation of how distracted they are? Who cares if they're doing actual work or not on their phone? This is not about that, this is about an AI that can determine whether you're on your phone or not. That's it!
+
+Why everything needs to be political?
+
+I do at least 30 percent of my research (e.g. reading papers) and 50 percent of my business (following leads, LinkedIn, etc) on my phone. So I should be cancelled because I'm working hard on my phone? Dumb.
+
+Should be combined with an reward system for not using the phone during the work haha
+
+Great project
+
+O! I think this is ImageAI(module for python)
+
+What about tablets and computers?
+
+Ain’t they voting?
+
+Skynet in the early stages of learning about its future foe
+
+Why do we need an AI for this? You can literally just see them staring at their phones. This is such overkill.
+
+I bet they don't like having their identity known by facial recognition. 🤭
+
+"Reveals" and "stare" are loaded terms that don't belong here.
+
+Need to watch the live porn
+
+Lol at Jan Jambon. Glad I didn't vote for him.
+
+Checkin their crypto portfolio. Oh wait they are old dinosaurs. They dont have crypto. Just playing Candy Crush.
+
+The politicians staring at their tablets instead: I don't have such weakness.
+
+White=how sure that its that politican 
+Green=how sure that its a phone
+
+I guess being on an iPad doesn’t count lol.
+
+To be fair their job is to lie to their constituents on Twitter, emails and Facebook and to vote the way their corporate sponsors tell them to. If they don't have phones they would have to remember what to lie about all in their heads. It can be exhausting remembering all the lies and keeping it all straight.
+
+Very misleading op title and overall low quality discussion in the comments. 
+
+I don't know but something about this post doesnt really fit with the sub, and I don't know if there is a rule or moderation approach that can keep that in check
+
+This job must be boring
+
+amazing how computer vision can tell this type of stuff!
+
+amazing how computer vision can tell this type of stuff
+
+How was this model made?
+
+Same, honestly.
+
+Wait, do they vote one by one? Sounds inefficient. Here everybody has three buttons in their chairs, they push it and the result appears in a screen. Done in less than a minute. The exception is really important votes, they do vote aloud then.
+
+This does nothing to stop them from staring at their phones tho.
+
+They also might be working on their phones.
+
+Not to mention people whose *job is coordination* might be using those phones to communicate about the vote. I wouldn't assume they're playing candy crush necessarily
+
+It's supposed to shine a light on the power of ai assisted surveillance and the need to regulate it.
+
+I never understand why voting needs to be done one by one. You guys know what to vote on the moment you stepped into that chamber, so why not just cast your vote and call it?
+
+Why do they need to stay after voting. Come back in an hour or have an aide update you when they are ready.  
+
+I'm sure there is plenty to do.
+
+kiss attractive alive square fearless bake chop sort payment include
+
+ *This post was mass deleted and anonymized with [Redact](https://redact.dev/home)*
+
+Non, that guy is obviously Bart Sommer 51% of the time only.
+
+The only 49% he's Veronica Gillam, a bleu collar laborer from the west end.
+
+Huh, I thought the numbers seemed a bit low.
+
+true. There is no time in here so it's not really something incredible right now
+
+yup, OP is full of crap
+
+I think they made it to make a statement about surveillance.
+
+The context is important here. [In 2019, a Flemish minister got caught playing angry birds on his phone](https://www.brusselstimes.com/belgium/71717/flemish-minister-president-caught-playing-angry-birds-in-flemish-parliament/). With this in mind, it is particularly funny to look at the politicians phone usage.
+
+>for some reason? Is there a reason?
+
+Perhaps they're doing last second research on the bills they're legislating?
+
+Great example of bias in ai and ml. Well said.
+
+I guess the assunption is you use the bigger screens for serious work and private phones (are they private?) for idle fun?
+
+Underrated comment
+
+Holy shit this project is brilliant
+
+Object detection is a form of AI, how else do you think it is able to classify each bounding box in the picture? It has learned this through examples which resembles human learning.
+
+Maybe don’t try to lecture people if you clearly don’t even work in the field
+
+I would argue that object recognition is a large part of what “AI” colloquially means right now. If we are being prescriptivist, fine, but it’s too subtle or a distinction for the masses.
+
+How do you know it's not using multilayer perceptrons? Ai is one way to do object recognition, but you're right that it's not the only way.
+
+computer vision is a branch of AI though. but the rest is true, it can maybe detect humans sitting (not just politicians) and hands + rectangle-shaped objects, but hardly anything more.
+
+I would be more interested in developing an eye-tracking model for the politicians' eyesight, which I think would be much more informative as to what is actually happening in their minds. At least, it would prove that they focus on the bottom of their female colleagues much more than they care to admit, which would be a good point to start a discussion on how to replace them with recommender systems for public policies.
+
+I dig your comment so much, I had to comment in addition to thumb up.
+
+[deleted]
+
+>It is time we start using the right terminology, be accurate in our descriptions of what the work is about and lastly, stop overestimating our work.
+
+No it isn't.
+
+I think it's not facial recognition, because the seats are allocated to politicians on a permanent basis and the cameras are likely to have a static position and orientation. therefore it is sufficient to determine if a human is present where they are expected to be, to know that politician X is sitting on that chair
+
+Ask yourself this: Did the poster ever make the claim that they weren't working?  
+
+
+I think the more interesting observation is that EVERYONE is connected through the internet these days and has more faith in their own abilities to navigate the waters of the world than an institution.
+
+If I were a politician and trying to be especially keen during a session, I would be fact checking every single thing, and I would be doing it on my phone.
+
+Can't say I agree. Thought you were going to go in an actually useful direction with your post. I give you a 6/10 for effort. Here's where you should've gone with it:
+
+>Staring at phone may not always be unproductive if that is what being implied by this study. Consider the damage these politicians would be doing if they weren't distracted by their little glass teats. For them, truly, doing nothing is more productive than the alternative. Ever heard the expression less is more? Well it's back and this is the Hollywood sequel.
+
+Cute comment, utterly worthless at producing a valid argument.
+
+As a member of the supreme master race that wastes time on their computer instead of their phone, I approve of this measure. We should spare no expense expediting its introduction (P.S. I think we can all agree any further measures would be excessive, so let's not even think about that)
+
+These are politicians. 
+
+I dont care one bit about them. nor do I feel bad or sorry for them.
+
+I care about the actual people though, and I dont think that level of McCarthyism should be allowed at work. I also dont think its legal with the current framework.
+
+Sounds like a good thing.
+
+Anyone have any idea why this comment from OP with further info got downvoted so much?
+
+[removed]
+
+bruh, it's not even actual AI - just normal CV stuff. it's not new, novel or complicated - simple object detection. Nor does it provide any insight whether they are distracted or not and thus represents a biased system.
+
+politicians will always be political dafuq youre talking about lol
+
+Politicians make rules about how their citizens are monitored.
+
+They also form relations with countries that limit civil freedom on similarly technology as shown here.
+
+So you want to look at C-Span for 24 hours and calculate how long they look at their phones rather than have an algorithm that does it for you?
+
+FYI this appears to be a panel of Belgian ministers, not any kind of legislative body.  Still not sure what is wrong with politicians looking at their phones instead of sitting idly, there's probably a good chance what they're doing is work-related.
+
+There was a very mild controversy about phones in the Dutch parliament a while ago. People started asking questions about what politicians do on their phones during their work. 
+
+Turns out it's a bit of social media, but mainly fact checking and texting employees for certain files or plannings that correspond to their work in the parliamentary room.
+
+You work on a laptop!
+
+It's almost imposable to work on a phone, there at best on twitter.
+
+You just need to cross check there social media accounts to the time on there phone to see if there posting cat photos online.
+
+edit, now I think about it you may be able to tell what there doing up to a point from how they handle the phone, finger/hand movement will give a good impression of what kind of task they are doing.
+
+Text will always have keyboard at bottom of display, reading will have long swipes up/down & more random movements will be games?
+
+>It's supposed to shine a light on the power of ai assisted surveillance and the need to regulate it.
+
+If so, then it's been *very* poorly communicated. I certainly didn't infer that from the image.
+
+It also showcases the addictive power of AI selected digital content.
+
+I don't even know why they need to vote at all. The descisions are already made ahead of time -- voting is a formality in western countries. Much of the east stopped pretending a while ago.
+
+Tradition + transparency + accuracy + accountability.
+
+[removed]
+
+Person relaxes for a few minutes at work, more news at nine!
+
+I really hate this praise of micromanagement of politicians, especially from people who otherwise hate micromanagement.
+
+Jan jomson is in the photo.
+
+lol
+
+Perhaps someone else made a claim and they're trying to check if it's true?
+
+Perhaps they're trying to listen and learn, but stay factually oriented at the same time?
+
+Perhaps someone asked a valid question and they didn't have the answer, and they're trying to check now that there's some down time?
+
+Perhaps someone said one of their claims was wrong, and they're trying to check?
+
+[removed]
+
+Indeed, it's impossible to send a tweet to your electorate about the vote. Phones only come with Candy Crush these days.
+
+It's the whole friggin point of this work: https://driesdepoorter.be/
+
+I don't think convolutions or backpropagation resemble human learning in any shape, way, or form, but maybe that's just me.
+
+[removed]
+
+[removed]
+
+Computer vision is overlapping with AI but it is not a "branch  of" AI. There are entire vision tasks that involve only geometry.
+
+Thanks for letting us know.
+
+[removed]
+
+[removed]
+
+Thanks for the breakdown, chief.
+
+That's nice, but that's why you aren't a politician.
+
+Let's agree to disagree and leave it at that.
+
+>I also dont think its legal with the current framework.
+
+lol
+
+How do you train object detection models???
+
+Looking at the profile of the original poster, I really do think the intent of the post was marketing.
+
+I believe that the root reason for having a parliament is to discuss, and to discuss you need to focus on who's speaking.
+
+Yeah sure, imagine your bank lost all your money and all you get is a live feed of all the employees sitting on their phone whilst you don’t have any confirmation on where your money or whether it’s going to be returned….
+
+That's an ignorant observation. They are politicians, don't you think they may need to text or send a quick email to people? 
+
+Regardless, phones are a massive part of most any blue collar job that involves communicating with people. Also, "almost impossible to work on a phone" is a short sighted opinion.
+
+I know someone who is chair of two national sized companies (250+ employees each) and only ever uses their iPhone. It’s not that uncommon.
+
+I wholeheartedly disagree and work on my iPhone all of the time. I hate reading dense text on a laptop. It’s much better on an iPhone. An iPad is great too, but less portable. I highly doubt it, but they could literally be reading a bill or annotating it.
+
+As a software engineer, I think there is very little that can’t be done on a phone or tablet these days. Unfortunately, developing software remains one of those things, but most jobs don’t even need a computer anymore. Hence, apples “what’s a computer?” iPad commercials.
+
+I'm a sysadmin and can do my job 100% on my phone if needed. It's maybe not the most efficient but it can be done.
+
+I work on my phone most of the day
+
+Poorly communicated by the OP by not providing a link or description of the actual project/message.
+
+> Dries Depoorter is a Belgium artist that handles themes as privacy, artificial intelligence, surveillance & social media.
+
+https://driesdepoorter.be/
+
+Yeah, I too only know that because I saw the  project site in a different sub. I don't have it on hand but others have already commented it here.
+
+Because pretending is what makes them feel legitimate. Otherwise they'd all be suffering from imposter syndrome.
+
+Tradition I grant you, but the accuracy, transparency, and accountability parts is BS. It'd be easy to display the individual vote on a dashboard, on a public website, and if you want, clear Yea/Nay indicator right next to their face. Hell give them 5 minutes between pushing a button and vote lock in, if you care to.
+
+[removed]
+
+￼
+
+Digital Culture
+
+Artificial Intelligence
+
+AI bot trolls politicians with how much time they're looking at phones
+
+"pls stay focused!"
+
+By  Alison Foreman  on July 5, 2021
+
+ > Life > Digital Culture
+
+Sure, we've all snuck a look at our phones in dull meetings. But if you're working on the taxpayer's dime, you'd better be ready for artificial intelligence to call you out for gawping at the black mirror in the legislature when you should be, you know, legislating.
+
+That's what digital artist Dries Depoorter did for his latest installation "The Flemish Scrollers." His software that uses facial recognition to automatically call out politicians in the Flemish province of Belgium who are distracted by their phones when its parliament is in session. The project comes almost two years after Flemish Minister-President Jan Jambon caused public outrage after playing Angry Birds during a policy discussion. (Really.)
+
+Launched Monday, Depoorter's system monitors daily livestreams of government meetings on YouTube to assess how long a representative has been looking at their phone versus the meeting in progress. If the AI detects a distracted person, it will publicly identify the party by posting the clip — on Instagram @TheFlemishScrollers, and Twitter @FlemishScroller.
+
+This comment was overwritten and the account deleted due to Reddit's unfair API policy changes, the behavior of Spez (the CEO), and the forced departure of 3rd party apps. 
+
+Remember, the content on Reddit is generated by THE USERS. It is OUR DATA they are profiting off of and claiming it as theirs. This is the next phase of Reddit vs. the people that made Reddit what it is today. 
+
+r/Save3rdPartyApps r/modCoord
+
+I really hate apologists for the destruction of democracy, especially from people who otherwise love democracy.
+
+I dont think at least half of politicians do that... and based on the number on their phone in this scenario... 
+
+statistics are not in their favor.
+
+[removed]
+
+Not in the computer vision, but rather in the interpretation of the results
+
+We see people looking at laptops and phones, so we assume they're slacking, when there's no reason to believe that's not working
+
+Because the outcome doesn't match what OWilson90 wants, so what else could it be aside from bias in machine learning?
+
+Or read a text from legal counsel…
+
+Cool and terrifying
+
+I don’t want to start the discussion about biological plausibility of deep nets here, because it is redundant to the discussion of the system being an AI. The functional concept is what determines if a system can be considered an AI, not so much the technical implementation. AI in the field is seen as mimicking some sort of smart human behavior which leaves no doubt when the system is ‘learning from examples’. I do understand however that the umbrella term has a vague boundary (back in the days even simple knowledge system were seen as AI), but object detection is far away from this boundary as it resembles complex human behavior
+
+It takes great strawman-making skill to see convolutions or backpropagation in
+
+>It has learned this through examples
+
+...but if you insist on being pedantic, backpropagation does resemble human learning in the broadest way, as it involves changing internal information processing routines after obtaining information about past mistakes.
+
+Yes, it is just you.
+
+I think what I’m circling is that we might be better off teaching everyone what “general intelligence” is than trying to control public understanding of what “AI” is. AI is already a huge and messy term that’s been overloaded and pulled in ten different directions.
+
+love your comment. but you are fighting a fight you cant win.
+everything is AI nowadays as long ad it involved a NN. thats the power of the buzz word
+
+What are some examples where it is okay to use AI to describe the underlying algorithms?
+
+AI just seems like a silly marketing term. We have not even defined intelligence properly, how can we define artificial intelligence then?
+
+Machine learning sounds more intuitive to me since we usually try to model a probability distribution in the best way we can. The machine literally learns the distribution in a defined model.
+
+Yes it is.
+
+Come on it's clearly AI, even if you do it rule-based. What you want to say is that it is not necessarily ML, to which we all agree I think, even though today it's handled in practice as a branch of ML. Unless you want to point to the fact that you can conduct computer vision tasks without computers, which would be a bit paradoxical.
+
+Sorry, I am not used to the terminology in a parliamentary system, I should have clarified.  These are not MPs but ministers of finance, energy, etc.  In the US we would call them members of the cabinet (and their title would be secretary).  I don't know how they are called in a parliamentary system.
+
+*White collar
+
+> phones are a massive part of most any blue collar job
+
+Either Gmail has become a really critical tool for stevedores lately or I think you might need to check your collar color.
+
+I’ve made tons of deals on my phone. Almost none from a computer.
+
+They’re a representation of the people, and they’re in public too.
+The least they can do is lead by example and show the taxpayers that they put some attention and effort into their jobs rather than being on their phone under work time when their under the public’s eye.
+
+Apropos of nothing, I find it highly depressing that the relatively free and open personal computer is being supplanted by these restrictive proprietary devices and their walled-gardens. The "what's a computer" ad genuinely triggered me. It's a shame we don't have an equivalent to the relative freedom of the PC in the portable devices space, because I'd be all over that.
+
+Im surprised how defensive people can be. Are you making the assumption that the average politician is as skilled as a sysadmin/software engineer etc..
+
+And yes you can work from a phone, that is why I was trying to think of ways to pull from open data to get an impression of what there doing. Im not sure where the project has been done and how open data is at that location so there may be more options to pull open data to work out what they may be doing.
+
+Keep in mind they clearly have the option to use a laptop or tablet, in the photo you can see people using a phone over a laptop/tablet "@wbeke" is marked at 85% on phone when he clearly has some kind of laptop in front of him. So im going to make the assumption he is using applications that run on phones instead of a laptop, he is not a system admin so he wont be monitoring remote systems he more likely to be in privet chat or social media & it's not hard to find him on google etc.
+
+I dont mind the downvotes but I am sad about how no one seemed to think past "well I work in IT and can do my job on the phone" when your talking about a different demographic.
+
+You probably don't do anything productive most of your day either.
+
+I mean if AI is going to **beat on politicians** I am all for it.
+
+I literally use blueiris to keep an eye on the activity outside my house.
+
+Depending on your institution they do voting even through electronic means manually slower to ensure that the results are accurate because of the 1988 Mexican general elections scandal. 
+
+Whether it's actually effective or not who knows but avoiding election fraud is important. Going slowly ensures accountability by ensuring every single person who voted intentionally and everyone who witnessed it agrees with the observation. If there was any ambiguity in the process it could be taken advantage of.
+
+[removed]
+
+Nah.
+
+Seeing some debates in my life I would rather have played on a phone.
+
+They have become borderline useless imho. People who don't really care for the bill will vote party line, those who care have done their research beforehand. The public debate usually comes after the debates in the committees, with results and positions being available well before the debate. A speaker normally doesn't add anything new except maybe some slights on the opposition that make it to the news. Questions always seem prefabricated. The debating culture in politics is nonexistant.
+
+The debates are also not a politicians "main work", when they don't have to join them as a speaker. It just appears so because the bulk in committees isn't visible.
+
+[removed]
+
+[removed]
+
+It's so sad that phones don't come with email anymore.
+
+I'm not taking issue so much with the use of the term "AI" because its definition has become increasingly nebulous over recent years. I'm taking issue with the idea that AI = human-like = learns by example.
+
+See my response to the other comment, copied here:
+
+> That is a ridiculous argument. If all it takes for a learning process to be "human-like" is to learn by examples and change internal information, then linear regression and naïve Bayes must qualify as "human-like" too. After all, they have internal parameters that can be updated with new examples.
+
+By that definition, we've had "human-like" learning algorithms since  ENIAC. Actually, even longer than that because there were plenty of non-digital computers that could implement naive Bayes
+
+That is a ridiculous argument. If all it takes for a learning process to be "human-like" is to learn by examples and change internal information, then linear regression and naïve Bayes must qualify as "human-like" too. After all, they have internal parameters that can be updated with new examples.
+
+Nah give it a few years, NNs won't be AI any more than SVMs are. AI is always whatever we couldn't do five years ago.
+
+Don’t know, autonomous vehicles? Calling everything AI is like calling all connected TVs Smart.
+
+[removed]
+
+You can do computer vision tasks with only geometry. I don't see how that is AI, but I would agree there is a ton of overlapping concepts.
+
+*black collar
+
+And that's what they call *The Art of the Deal*
+
+Have you heard of android? Its this hot new thing.
+
+I'm just curious as to what work you would imagine politicians to be expected to be doing? I would have thought most of it is reading, coordinating, writing emails, replying to constituents etc. None of which particularly require applications that can't run on phones
+
+Yeah a demographic it's is almost entirely email, IM, and calls.
+
+85% seems to be the confidence that this is a phone. As it probably is with their faces.
+
+Most small business owners I've developed for do about half of their work from their phone. Communication is easily 80% of the modern business model.
+
+That's quite the assumption. You do realise there are other jobs than what you presumably do for a living right?
+
+General elections are separate issue.
+
+With elected politicians working in parliament, there is absolutely no need to have anything else than electronic voting with instant voting result. Anything else (like the British lobby-system) is simply waste of resources.
+
+Nice
+
+[removed]
+
+Debates are fairly useless I agree. But if you are going to get royally paid to sit there, the least you can do is actually follow them.
+
+[removed]
+
+You seem dedicated to not understanding what's being said
+
+> So now we are supposed to control the bias in human interpretations?
+
+No, nobody said anything similar to this
+
+Yes, but our definition of smart has shifted. That doesn’t mean that a smart system couldnt have a simple naive bayes integrated within its routines
+
+If anything that demistifies how human intelligence works is ridiculous to you, fine. I see little reason to challenge your view.
+
+And yes, learning by example and changing internal information, while not exclusive for humans, is a pretty efficient way to learn. Nothing wrong with and nothing warranting its dismissal.
+
+It's very weird you'd mention linear regression because it is metaphorically an atomic unit of the field of AI.
+
+Or they’re just management, and will regurgitate any buzz word if it makes your product shinier
+
+Android is an open-source project, yes, but the devices themselves are generally locked down, undocumented, and depend upon closed-source drivers and firmware unavailable to the public. You can't really just install your own OS on most of them, and the custom OS builds you can get are device-specific and usually buggy. That leaves you at the mercy of the device manufacturer when it comes to your OS, user privacy, updates, the things that ship with it, the things you can't uninstall etc, which sucks imo. Some vendors are better than others, but none of them come close to the level of user control that PCs provide, and the idea that these devices will replace the PC scares me.
+
+I agree Android is great for this. Android is far from a walled garden. Mobile phones have taught us how to make the personal computer better. The freedoms and openness often come at a cost of security. Mobile devices forced software into sandboxes with elaborate permission systems. They introduced App Stores which allows software to be vetted before it is available to user. With Android, these securities are optional. You can always install a different App Store, root your device, etc. Under the hood, Android uses the Linux kernel. Apple and Google secure everything out of the box which has genuinely been very good for the user. You may be able to differentiate between the real Spotify and the one that a malicious website linked to on the web, for instance, but sadly many, many people can’t. The biggest challenge now is to provide anticompetitive legislation to prevent the makers of the hardware and platform software from being able to suppress freedom of competition.
+
+But the interface is horrifically inefficient. Using smartphones makes sense; when laptops are not portable enough. I don't see how they're not portable enough there.
+
+It's a transitory phase anyway tho; AR glasses will replace both laptops and smartphones. Hopefully in next few years, through progress is excruciatingly slow.
+
+lol no, chatting on your phone isn't a "modern business model"
+
+It isn't and there aren't.
+
+You would still need to confirm the results by having everyone agree they voted accordingly and everyone else agree as witness.
+
+Debates are not for the benefit of the politicians, the actual debates happen behind closed doors (perhaps even in phone chats?). Debates are meant to inform the general public of the stances of a politician. There really is little reason for the others to listen to them.
+
+Again, the main issue here is that we're judging how good politicians are by "butt in seat time" rather than how good decisions they make. Focusing on butt in seat time will give you as good politicians as focusing on lines of code gives you good programmers.
+
+[removed]
+
+You're shifting the goalposts. I'm not talking about the term smart - that's another nebulous term with no hope of a workable definition. I'm talking about the term human-like, which is what I originally responded to and what I take issue with.
+
+You don't have to convince _me_. I'm just talking about the norms of the field. Try submitting a  conference paper that likens naive Bayes to human intelligence and see how the reviewers receive it. If they agree with that assessment, then I'll eat my hat.
+
+Yes, it is an atomic unit of deep learning. So what?
+
+A cell is an atomic unit of a brain. Does that mean that a single cell has human-like intelligence? But who am I kidding - you guys probably _would_ consider single cells to have human like intelligence. Bacteria react to external stimuli by modifying their internal states, and according to you guys that is the definition of human like intelligence.
+
+The pseudo-intellectualism and AI mysticism in this thread is rising to absurd levels. I'm done. I'm out.
+
+[removed]
+
+I agree with you especially because android is (mostly) open source as opposed to most PC OSes. The good thing is that people who arent as tech-savvy have the option to use a secure app store. You dont really have that option with windows (windows store is a disfunctional mess)
+
+Texting and coordinating and reading documents and articles is extremely efficient on a phone, wtf are you talking about?
+
+Advertisement, sales, stock management and display, and a dozen other forms of information distribution are essential to any business. As those are no longer done person-to-person by most businesses that lack a brick-and-mortar sales point, they're done via phone or computer.
+
+A business is literally defined as an organization that creates and delivers value. The creation tends to be the easy part for most, which is literally why I have an income stream, myself. I streamline the communications and delivery process for them - allowing them to do everything from their phone.
+
+Without voting secret, that's not an issue. With the fact who voted and what, it's easy to verify the vote is correct, as in, if my vote were shown incorrectly, I could easily notice it.
+
+Yes, it's not a reflection of good nor bad policy. But it shows a clear lack of respect towards the speaker and the public.
+
+[removed]
+
+You're having such an odd reaction to the definition of a technical field that it's kinda shocking. This is a Machine Learning subreddit, you shouldn't be aggressive about people posting about the definitions in it.
+
+It’s maddening. For years my CEOs been hawking our platform as some AI magic bullet and all I can do is sit on the sidelines and play out the Emperors New Clothes.
+
+What’s the most complex system you’ve built?
+
+Yes, and sometimes walled gardens turn into nice places too. I love the Android project, but I have gotten roped into the apple ecosystem over the years. Their stuff just works exceptionally well together on everything. The convenience of getting my texts/calls on my Mac, my AirPods transferring automatically between whatever device I’m using and Apple Pay which I use for everything but Amazon makes life a bit more convenient. I absolutely think Apple overcharges for hardware and maintains an “exclusive” attitude that I don’t like. I also think the App Store restrictions can become unfair, because their is no alternative on iOS and jailbreaks void all warranties and protections. 
+
+That said, people forget that Apple has been a very large contributor to open source over the decades. They’re WebKit rendering engine (the backbone of Safari) was forked by Google to create Chromium. The Apple operating systems were largely based on free open source operating systems, like FreeBSD. They rejected Linux/GNU stuff b/c it has copyleft licenses. Those licenses force apple to make all of their derivative code open for the world. (Virtually all companies hate these licenses and they’re not really “free” in my opinion… they force you to follow their definition of “free” which imposes more restrictions on your use… making it a form of bondage). They also regularly publish parts of the iOS and macOS software at https://opensource.apple.com. 
+
+I think everything in life has pros/cons. We just need to make sure the little software guys aren’t destroyed in the process. But mobile has made so much better. It even kickstarted new economies and sped up standards for the browser!
+
+It's like people are expecting them to be writing unit tests or functional requirements  or something
+
+Regardless of message length, you're gonna write it faster and with less effort on a full scale keyboard.
+
+As for reading documents, yeah, smartphone can do it on par with laptops. But navigating to these documents...
+
+They really aren't though.
+
+Yes but you would still need to go through the votes and have everyone explicitly agree that they voted accurately and in sound mind while at the same time having everyone else confirm that you confirmed your vote so there's no way you could lie about it later of have any ambiguity in the process that could trigger a re-count.
+
+[removed]
+
+Yeah fuck the little software guys! Fucking small people with little masks and pointy hats stealing my trash... smh
+
+Boomer with sausage fingers foud. Imagine carrying your laptop around everywhere all day
+
+Please explain.
+
+I've been talking specifically about voting in parliament here, not general election.
+
+There is no issue with electronic voting in parliament, as there is no voting-secret, and there are, for example, [this](https://images.almatalent.fi/cx55,cy0,cw889,ch666,570x/https://assets.almatalent.fi/image/5b6c2434-9e36-5c7c-b7aa-328fc0e83379) kind of boards around the building. That's voting result instantly showing in real-time. If somebody notices their vote is recorded wrong, they ask the speaker of the parliament to fix it before it's made official. After that, there's no changing the result.
+
+There's absolutely no need for others to confirm your vote, as you can do it yourself. You cannot lie about your vote as it's public on the display. If you're not in your sound mind, well, there's a party for the crazy people.
+
+[removed]
+
+================================================================================
+
+Title: [R] First Order Motion Model applied to animate paintings
+
+I cant stop watching the actress, it’s like she’s studied Disney princesses all her life.
+
+That moving pharaoh will be my next sleep paralysis demon
+
+Taken from https://twitter.com/AydaoGMan/status/1234531519349350402
+
+Utilizes First Order Motion Model for animation: https://arxiv.org/abs/2003.00196
+
+Project Page: https://aliaksandrsiarohin.github.io/first-order-model-website/
+ 
+Code: https://github.com/AliaksandrSiarohin/first-order-model
+
+A friend of mine recently adapted this model for Skype, Zoom, etc. Very easy to install.
+http://github.com/alievk/avatarify
+
+That's delightfully creepy
+
+I want this done on The Scream
+
+Anyone think she looks like Elizabeth Holmes??
+
+This could result very helpful to vtubers in the future
+
+seriously impressive how different angles can be projected as well.
+
+How can I see more that girl doing shit with her face?
+
+What’s the painting in the top left though?
+
+Kinda creepy. Can we train on this one from r/woahdude https://v.redd.it/iqptq372itu41
+
+Sorry for the noob question, but what does "first order" mean here?
+
+Hello, maybe this has been asked before but how can I get this software/ learn about it. I'm a motion designer with little knowledge of code but I'm willing to learn
+
+Does this remind anyone else about the moving pictures in Harry Potter?
+
+I honestly don't understand the hype as this is old news.  A team at Samsung AI demonstrated this with few-shot learning.  [https://arxiv.org/abs/1905.08233](https://arxiv.org/abs/1905.08233)
+
+how do you do this? like what program? its cool
+
+Same can be done live via face2face.
+
+Nefertiti is scary!
+
+Amazing
+
+Harry Potter moving paintings??
+
+The pearl earring girl looks freakishly realistic
+
+The Girl with a Pearl Earring looks like she's having a stroke
+
+Nefertiti looks so good
+
+Is there GAN for language? What's the best paper / code to watch?
+
+Couldn’t stop watching Nefertiti. What a babe!
+
+Lovely. But I wish I can hear what they're saying to me.
+
+Is it me or has this thread recently acquired a lot of members? This was posted yesterday, and now I believe it is the highest upvoted post.  After looking at the rules, I guess the crowdedness is more common on weekends.
+
+Where can I test this out myself? Do I need my coding skills or a fast computer?
+
+It's perfect except for the wink
+
+Ahhh yes, now I am terrified
+
+Nice
+
+[removed]
+
+I’m pretty sure there was a post that had something similar to that. Completely mesmerizing.
+
+Source: https://vm.tiktok.com/7vrjeu/
+
+It's very TikTok.
+
+I watched and marveled at the tech applied to the other three for about two loops, then caught myself watching her for more than that. Stunning.
+
+How to move like Disney characters:
+https://www.instagram.com/p/B0RgjtrllHt/?igshid=1i2dyqs7j2c3c
+
+Every single person on TikTok does this same exact thing. It’s not that special.
+
+YES DOOD
+
+I’ve noticed this a lot with Tik Tok style videos and people that seem to make a lot of them. It definitely seems like pumping Tik Tok content is good practice for nailing a facial expression for a certain emotion on demand. I think humans in general have been doing this a long time but being in enough social situations where this kind of skill is useful or necessary was more rare.
+
+If you need it chased out, there's always the [Globglogabgalab](https://youtu.be/hLljd8pfiFg)...
+
+Given it's Nefertiti, should be a quite interesting demon.
+
+[deleted]
+
+Thanks for the attribution and link to my twitter! Much appreciated 😁
+
+I've been showing up to all of my online classes as Obama for a week now with this. Great stuff! It's a bit laggy because my graphics card is a little bit old (GTX 1070), but it's really not that bad, although certainly not as smooth as in the video
+
+sadly it requires a nvidia card to get accelerated.
+
+The mouth doesn't work for some reason...
+
+Well, THIS changes everything!
+My D&D game has just been UPPED!!
+
+Anyone with more technical know how than me have any thoughts/concerns about this?
+
+[is this your friend](https://old.reddit.com/r/okbuddyretard/comments/g0fdtw/obama_kinda_vibin_doe/)
+
+All of them. Even the real one. Especially the real one.
+
+It would be scary, I would imagine
+
+Tried it. Hasn't worked so far w/the pretrained model I tried.   Perhaps too stylized a nose? Maybe not enough correspondence points?
+
+I was thinking the exact same
+
+It's the target, the AI is trying to reproduce her facial expressions on the 3 paintings/photos (Warhol, Nefertiti, Vermeer)
+
+top left has the tiktok handle
+
+First order Taylor expansion
+
+It's related to Star Wars
+
+The authors have a colab notebook on the [github repo](https://github.com/AliaksandrSiarohin/first-order-model) for this project. It pretty much walks you through the process and lets you try your own. Pretty fun. Just open the [demo.ipynb](https://github.com/AliaksandrSiarohin/first-order-model/blob/master/demo.ipynb) file, it gives you an option to open in colab.
+
+[removed]
+
+[deleted]
+
+Oh no /r/all is here
+
+1. You get the code from their GitHub and run it on your machine which has Nvidia gpu preferably
+
+2. You use Google colab https://github.com/AliaksandrSiarohin/first-order-model/blob/master/demo.ipynb
+Using this file to run it on Google's server. It's pretty straightforward, but you should get some idea about programming I guess.
+
+[removed]
+
+Damn. Now you got me curious.
+
+Is China not even hiding thier attempts at facial recognition on this app?
+
+Every single actor acts, but some do it better.
+
+Every single chef cooks, but some do it better.
+
+You do it then
+
+Thank you for reminding me this still exists after 4 yrs
+
+I'm gonna tell God about this.
+
+Well that’s stuck in my head now, fucker.
+
+It's a woman. Nefertiti.
+
+It's very cool- definitely the coolest FOMM demo I saw :)
+
+A 6GB 1070GTX can't handle this decently? Damn...
+
+What were the responses from your teachers/classmates?
+
+Try pressing F to match your camera to the avatar. That solves a lot of issues for me. Make sure you have good lighting and are close to the camera
+
+this looks fun and would be badass to implement in a dnd game
+
+r/woosh
+
+that is a sculpture, print and an oil painting
+
+[deleted]
+
+What does First order Taylor expansion mean?
+
+
+I see you've posted a GitHub link to a Jupyter Notebook! GitHub doesn't 
+render large Jupyter Notebooks, so just in case, here is an 
+[nbviewer](https://nbviewer.jupyter.org/) link to the notebook:
+
+https://nbviewer.jupyter.org/url/github.com/AliaksandrSiarohin/first-order-model/blob/master/demo.ipynb
+
+Want to run the code yourself? Here is a [binder](https://mybinder.org/) 
+link to start your own Jupyter server and try it out!
+
+https://mybinder.org/v2/gh/AliaksandrSiarohin/first-order-model/master?filepath=demo.ipynb
+
+
+
+------
+
+^(I am a bot.) 
+[^(Feedback)](https://www.reddit.com/message/compose/?to=jd_paton) ^(|) 
+[^(GitHub)](https://github.com/JohnPaton/nbviewerbot) ^(|) 
+[^(Author)](https://johnpaton.net/)
+
+Doesn't character animator require you to define correspondences to different key mouth positions?   This is much faster when it works. Nothing to configure.  Also, I thought that was 2D. This is doing some 3D perspective warping when you turn your head etc.
+
+Wait one year and you'll have it on your phone.
+
+Is this C plus plus?
+
+
+I see you've posted a GitHub link to a Jupyter Notebook! GitHub doesn't 
+render large Jupyter Notebooks, so just in case, here is an 
+[nbviewer](https://nbviewer.jupyter.org/) link to the notebook:
+
+https://nbviewer.jupyter.org/url/github.com/AliaksandrSiarohin/first-order-model/blob/master/demo.ipynb
+
+Want to run the code yourself? Here is a [binder](https://mybinder.org/) 
+link to start your own Jupyter server and try it out!
+
+https://mybinder.org/v2/gh/AliaksandrSiarohin/first-order-model/master?filepath=demo.ipynb
+
+
+
+------
+
+^(I am a bot.) 
+[^(Feedback)](https://www.reddit.com/message/compose/?to=jd_paton) ^(|) 
+[^(GitHub)](https://github.com/JohnPaton/nbviewerbot) ^(|) 
+[^(Author)](https://johnpaton.net/)
+
+I think it was this one I was thinking about:
+
+https://imgur.com/r/funny/98wyFSN
+
+Excuse my ignorance, but what do you mean? What’s giving it away?
+
+[removed]
+
+Jesus wept!
+
+Yeah, the frame rate is just choppy that's all
+
+Honestly, maybe I had too high standards but it was pretty meh, mostly just a couple of laughs and then asking how I did it. But I had a online boy scout meeting and that had a lot better results and was pretty fun
+
+r/yourjokebutworse
+
+The transformation between two images (for instance, from a video of a moving face) is typically encoded by a dense motion field (or optical flow) which means each pixel has an associated motion which can be quite intricate.
+
+In this paper, such a transformation is approximated by taking multiple points of interest in the image and for each point, estimating the Taylor series expansion of that particular sub-transformation while observing the transformation's effect in a small neighborhood, which is much easier than trying to estimate the dense motion model. This Taylor series only has the first order derivative term, neglecting higher order terms for simplicity.
+
+Nope they have a live puppeteer option with mocap. It’s hit and miss.
+
+Looks like python
+
+No it's Fortran
+
+That's actually a C+. The second plus reflects my attitude of how I felt about the C+. It was a typing class.
+
+That little hand slap at the end.
+
+They’re basically giving the labels in audio and asking users to record ground truth video for the label. More like classifying facial expressions, though.
+
+Furthers thier ability to label and determine emotions and nuanced facial expressions. It probably is used to make their current facial recognition more accurate as well, larger data set. It's especially creepy that the voice is auto generated. You do not want a state power to have the ability to determine your emotions on the fly, for any reason whatsoever.
+
+[removed]
+
+Wonderful explanation. Thank you.
+
+I mean watch the hand closely after it slaps the heart on lmao
+
+[removed]
+
+[removed]
+
+[removed]
+
+================================================================================
+
+Title: [N] AI can turn old photos into moving Images / Link is given in the comments - You can also turn your old photo like this
+
+This seems like the next museum gimmick where you have an AR app, you point it to a photo and you get the person telling you their life story
+
+Alan Turing
+
+Does that mean we're supposed to find and share the link? Come on, op....
+
+I used some photos of my father and I'm speechless. He passed away when I was just a few months old, 29y ago. This is the first time I see him in motion, blinking, smiling... Thank you so much for this. ❤️
+
+[cursed_cristiano_ronaldo_statue.mp4](https://streamable.com/rpxeuf)
+
+This feels scary but I would love to give all my old pictures a spin.
+
+https://www.myheritage.es/deep-nostalgia
+
+Just a warning, they will use it for porn
+
+anyone know if github code exists for this? i would be curious to experiment with it
+
+I love it when these things [break](https://imgur.com/a/bDISWZW) in the most spectacular and horrific of ways.
+
+Harry Potter feels
+
+Edit : Context here was that Harry Potter universe has similar moving pictures
+
+[deleted]
+
+Sorry but not any link
+
+where is the link man
+
+Link please?
+
+where the hell is the link?
+
+Colab link please
+
+Thats amazing. One step closer to Hogwarts.
+
+surprisingly poignant
+
+To test it I put in some family pictures of people who are still alive and the results were frankly disappointing, awful even.  Uncanny valley mixed with nonsensical facial expressions mixed with inaccurate facial geometry.  More convincing for people you've never actually seen.  It may look like *somebody*, but not the real person in the photo.
+
+[deleted]
+
+Ahh, yes. Alan Turing, I backward-propagate?
+
+That’s Alan Turing isn’t it? Appropriate.
+
+Alan would be happy if he knew
+
+Where! Link?
+
+Where is the URL ????
+
+Will this Turing pass the Turing Test?
+
+uncanny valley presents: ...
+
+Reminds me of Harry Potter and the paintings on the wall haha! Pretty cool
+
+Link please?
+
+That’s Allen Turing he was one of the people who broke the enigma but after the war he got persecuted for being gay because in England it was illegal to be gay and and the made him take testosterone shots because they thought it would make him not gay but it messed with his mind and did not do well for his body and what basically led up to his suicide. Sorry for the long rant
+
+Is that Alan Turing?!!!???
+
+Kinda creepy or am the only one that thinks this.
+
+Anyone gets Harry Potter vibes ?
+
+That's some Harry Potter shit
+
+[deleted]
+
+Can somebody explain me why it is scary??
+
+This reminds of the moving pictures in Harry Potter lmaooo
+
+u/savevideo
+
+https://www.google.com/amp/s/bigthink.com/amp/new-ai-can-create-fake-videos-of-people-from-a-single-picture-2638041019
+
+This is an article with more examples that also links to the paper
+
+Turing would be proud. Very cool work.
+
+Waiting for the first haunted house featuring moving olde tyme photos
+
+Harry: you always can
+
+Givin the ol Harry potter treatment
+
+Who would ever have said that 'Harry Potter' was a science fiction book....
+
+That is creepy af
+
+Looks cross-eyed. Was he?
+
+From first computer fundamental to Artificial intelligence
+
+Bleah.  Saw this in Interview With the Vampire 30 years ago.
+
+Oh pleease, this isnt an "old photo"; its Nicholas Hoult. AI my booty.
+
+[removed]
+
+tried this deep nostalgia from  myheritage serveral times...Just getting errors after uploading a picture
+
+Can't wait until movies of history actually have historical figures in then. That's going to be cool as shit
+
+Wasn't able to cargando una foto for some reason
+
+Saw this on Reddit a few days ago and even though it looks a tad unnatural, it’s incredible to try(and it’s free). I’ve never met any of my grandparents but recently got photos of them so I spent the night watching my grandparents faces move through this app. Oh, the app also does a decent job colorizing the photos.
+
+just insane...thanks for the link
+
+I feel like he blinks to much. It was jarring
+
+What's the difference between this and the first order motion model with a black and white filter?
+
+re-animator
+
+What kind of dark magic is this?
+
+Harry Potter-esk. It is eery though
+
+My heart
+
+Well it passes the Turing test, aka the imitation game.
+
+This reminds me of looking at a photo while tripping
+
+straight out of a harry potter movie
+
+Omfg it’s alive pls kill it with fire
+
+Wow! That’s insane
+
+Alan Turning
+
+Earmarked
+
+Creepy
+
+I really wish AI would stop turning old photos into moving images
+
+I think I saw this in Harry Potter
+
+Maybe it takes a long time processing but it is amazing.
+
+Wow this is cool!
+
+This wouldn’t be able to get the correct facial movements and body language of the person though. Kinda ruins it for me
+
+This is beautiful
+
+Deserves an upvote
+
+This is some Harry Potter shit.
+
+This is some Harry Potter ass shit
+
+Creepy/cool
+
+!RemindMe 12 hours
+
+Does this work with less than great photos or super realistic art work? I have some not great photos of my great-grandparents and painted portraits of great-great-grandparents with family members that are in stellar to decent condition (not an art critic, but it looks amazing). We think we found some more paintings of older family members but we cant substantiate; additionally the detail and quality is far inferior to the later productions.
+
+I've never met anyone above grand parents, my mother was born to her parents at a late age, so I would love to try to animate my ancestors.
+
+Dame Dane
+
+Where’s the link OP
+
+What in the Harry Potter is that
+
+That's stunning. Wow.
+
+Thank you for this, truly amazing
+
+well this is next gen future. i will take look on my grandpapa lol.
+
+No github? Some colab notebook ?
+
+Link?
+
+Wow!
+
+Alan Turing woke up from his grave?
+
+There's going to be a lot of racist pictures
+
+I saw the same thing in Harry Potter's newspapers. Hope those muggles cited them.
+
+Omg omg omg !!! Take my cash and i have millions of pics to be done ❤😍😍😍😍
+
+I think it's possible. I'm working on a project that involves ai searching video based on keywords and would like to invite anyone to help.
+
+Interesting. Thanks for sharing!
+
+does it pass the Turing test tho lol
+
+Hello Harry Potter moving newspapers
+
+Hey, it's some cool Harry Potter shit!
+
+I realized that in Harry Potter this technique is already implemented a long time ago.
+
+Where we can find the code for this to implement it for our own old photos?
+
+This honestly feels like those paintings in Harry Potter.
+
+Can someone explain the exact way to do this please ?
+
+I don't know why but I want to hang this on a wall as a "painting gif"
+
+Interesting, what ML algorithm is behind this?
+
+Wow that’s amazing
+
+Shut up and take my money
+
+This reminds me of the newspapers in Harry Potter.
+
+Even more creepy thought, imagine having a conversation with an AI impression of yourself, based on all the data about you on the internet
+
+This seems like Harry Potter stuff
+
+A friend of mine is developing an app like that for cemetaries. Approach the tombstone and hear the person's life story as told by friends and family.
+
+[deleted]
+
+Or, it could be used for animating a zoom photo to pretend you're paying attention xD
+
+I went to a museum where they had iPads in frames and actors playing parts to tell the story. When the program started and they went from still to moving and taking my 3 year old flipped out. Terrified. His brain could not handle that. I had to leave. It was pretty funny. 
+
+But I like the idea of deep faking an actor onto a historical photo or painting and having them tell the story. Could make the experience more engaging. Just, you know, for slightly older kids. 😬
+
+This already exists for some years now in Museu JK in Brasília, where you see former Brazilian President JK himself talk about his accomplishments.
+
+The 19crimes wine bottles did exactly this
+
+imagine having this at Auschwitz. The vibessss man
+
+YOO IM STEALING THIS
+
+If that shit doesn’t get picked up by Disney for their rides...
+
+What do you mean gimmick? That's awesome! I wonder if you could use this to generate enough frames of the photo person to perform a deep fake?
+
+Very fitting choice of a model.
+
+An incredible man with an unnecessarily tragic story. He was robbed of his dignity and never got any recognition while he lived. I hope he will be honored through the ages for what he's accomplished and enabled, and for the lives he saved by putting his genius to good use.
+
+[removed]
+
+I think they comment was filtered. Search “myheritage deep nostalgia” on Google.
+
+This looks really similar, https://aliaksandrsiarohin.github.io/first-order-model-website/
+
+Wow, that's so cool! What an amazing experience!
+
+So happy for you. What software did you use.
+
+It's only a fiction, a dream, a smoke-screen
+
+Kill it with fire ffs
+
+Thank you for your public service
+
+died laughing!
+
+[https://youtu.be/lhNNrhze3vs?t=83](https://youtu.be/lhNNrhze3vs?t=83)
+
+It's looking at me and I hate it
+
+[removed]
+
+They just use this company for the animation https://www.deidentification.co/reenactment/
+
+!RemindMe 20 hours
+
+The application of Rule 34 of the internet is as certain as the sun rising.
+
+Idk what software OP is using, but there is this [https://github.com/alievk/avatarify](https://github.com/alievk/avatarify).
+
+pretty sure thats all based on this or similar. https://aliaksandrsiarohin.github.io/first-order-model-website/
+
+i played around with the colab getting similar results. they are mostly commercializing it, it would seem.
+
+This is IP of MyHeritage.
+
+I did one of my pics. It was [nightmare fuel](https://twitter.com/jsradford/status/1365815616192544772?s=19)
+
+Thank you for the nightmares
+
+That's Alan Turing.
+
+Thanks for the new nightmares
+
+[deleted]
+
+https://aliaksandrsiarohin.github.io/first-order-model-website/
+
+I just used it a few times. It's creepy... If you use it on somebody where you know their facial expressions, the animation ends up looking nothing like them. However, for a picture of my grandpa who I never met, it's pretty fascinating :-)
+
+I'm sure that the animation doesn't really look like him though
+
+Of course not, that would end the whole industry
+
+Please link the output.
+
+Uncanny valley. Basically something that is *almost* human but 'wrong' in subtle ways sets off an alarm bell deep in our brain.
+
+###[View link](https://redditsave.com/info?url=/r/MachineLearning/comments/lui92h/n_ai_can_turn_old_photos_into_moving_images_link/)
+
+
+ --- 
+ [**Info**](https://np.reddit.com/user/SaveVideo/comments/jv323v/info/)&#32;|&#32; [**Feedback**](https://np.reddit.com/message/compose/?to=Kryptonh&subject=Feedback for savevideo)&#32;|&#32;[**Donate**](https://ko-fi.com/getvideo) &#32;|&#32; [**DMCA**](https://np.reddit.com/message/compose/?to=Kryptonh&subject=Content removal request for savevideo&message=https://np.reddit.com//r/MachineLearning/comments/lui92h/n_ai_can_turn_old_photos_into_moving_images_link/)
+
+Non-AMP Link: [https://bigthink.com/technology-innovation/new-ai-can-create-fake-videos-of-people-from-a-single-picture](https://bigthink.com/technology-innovation/new-ai-can-create-fake-videos-of-people-from-a-single-picture)
+
+I'm a bot. [Why?](https://np.reddit.com/user/NoGoogleAMPBot/comments/lbz2sg/faq/) | [Code](https://github.com/laurinneff/no-google-amp-bot) | [Report issues](https://github.com/laurinneff/no-google-amp-bot/issues)
+
+[removed]
+
+Can you imagine shouting that at a perfume tout.
+
+Any sufficiently advanced technology is indistinguishable from magic.
+
+I was thinking of the moving paintings on the walls haha
+
+With a combination of the stuff like in Black Mirror (S2Ep1) Be Right Back feeding in any social media, texts, and video of the person you could 100% replicate the Harry Potter talking pictures of people. This is all very real technology and is only a matter of when not if.
+
+Bitch this is reality, mathematics and cs
+
+Microsoft already announced a few weeks ago that they have an AI chatbot that can talk like the dead person by using their history.
+
+Came here to look for this comment lol.
+
+Yeah except in Harry Potter magic was preserved only for "wizards" and attending school was invite only. If you didn't get a high school "wizarding" qualification you weren't allowed to use it and ended up on a government watchlist where owning a wand was prohibited...
+
+If it helps people learn then go for it
+
+It's ok the A.I. will then steal your job :)
+
+Let me guess, you work at the British Museum?
+
+It would be funny if one of the displays had a real person in it but you thought it was a video and then they walk out of the display.
+
+[deleted]
+
+This content was removed in protest of Reddit's [short-sighted, user-unfriendly, profit-seeking decision](https://pluralistic.net/2023/01/21/potemkin-ai/#hey-guys) to effectively terminate access to third-party apps.
+
+Much respect for Alan Turing. And much sadness😔
+
+yes, porn and credit cards
+
+[removed]
+
+I used my heritage website. Someone sent the link in this post.
+
+C’est la vie.
+
+[removed]
+
+I will be messaging you in 20 hours on [**2021-03-01 12:37:18 UTC**](http://www.wolframalpha.com/input/?i=2021-03-01%2012:37:18%20UTC%20To%20Local%20Time) to remind you of [**this link**](https://np.reddit.com/r/MachineLearning/comments/lui92h/n_ai_can_turn_old_photos_into_moving_images_link/gp6u3mu/?context=3)
+
+[**2 OTHERS CLICKED THIS LINK**](https://np.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5Bhttps%3A%2F%2Fwww.reddit.com%2Fr%2FMachineLearning%2Fcomments%2Flui92h%2Fn_ai_can_turn_old_photos_into_moving_images_link%2Fgp6u3mu%2F%5D%0A%0ARemindMe%21%202021-03-01%2012%3A37%3A18%20UTC) to send a PM to also be reminded and to reduce spam.
+
+^(Parent commenter can ) [^(delete this message to hide from others.)](https://np.reddit.com/message/compose/?to=RemindMeBot&subject=Delete%20Comment&message=Delete%21%20lui92h)
+
+*****
+
+|[^(Info)](https://np.reddit.com/r/RemindMeBot/comments/e1bko7/remindmebot_info_v21/)|[^(Custom)](https://np.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5BLink%20or%20message%20inside%20square%20brackets%5D%0A%0ARemindMe%21%20Time%20period%20here)|[^(Your Reminders)](https://np.reddit.com/message/compose/?to=RemindMeBot&subject=List%20Of%20Reminders&message=MyReminders%21)|[^(Feedback)](https://np.reddit.com/message/compose/?to=Watchful1&subject=RemindMeBot%20Feedback)|
+|-|-|-|-|
+
+They way D-ID improved the separation between subject and background, at least in the examples, is really quite excellent and exciting. The momentum of the head staying one coherent object instead of continually morphing its boundaries is also both surprising and a little unnerving
+
+[removed]
+
+It’s beautiful
+
+No it’s Harry Potter
+
+[deleted]
+
+This link works, don't know what everyone is saying no link for?
+
+ok go away everybody
+its like facebook....
+
+Whosha good bot??
+
+Good bot
+
+Good bot
+
+[removed]
+
+Any sufficiently crappy magic is indistinguishable from Microsoft backed software.
+
+Can I sell you on a Microsoft Share Point subscription to go along with that snark?
+
+heard that in transformers haha
+
+Yeah, I see the resemblance. Famous, dead, and still moving.
+
+wasn’t that a black mirror episode?
+
+Mind sharing a source for that?
+
+Yeah okay... The pictures are pretty cool tho..
+
+Absolutely if it helps people learn go for it!!
+
+[deleted]
+
+Think of this implementation.
+
+Have a viewing room of all victims, based on real photos recovered.
+
+Generate movement like above link, then use RNN to generate voice generation. Just stating name, birth, when they arrived in the camp, I arrive at the camp on, I was a clerk, my mother was a nurse, and my father a professor, and etc. If I recall germans were notorious for record keeping and paperwork. Making a living instiution for guest to interact with. Would be very chilling. Imagine using GPT-3 to generate the audio too.
+
+Turing is an inspiration. And let's not forget people like ada lovelace! Computer Science is the child of many innovators working together across history
+
+Enigma was the German machine, not a creation of Turing. He did invent a machine to decode the encrypted messages of Enigma.
+
+Handy meme image "[You like computers? Thank this gay atheist](https://i.imgur.com/dcRi147.jpeg)" (Turing, ofc)
+
+Didn’t he also have some sort of personality disorder? I can’t remember exactly where I’ve heard that but I remember it being rumored he had a personality disorder that somewhat explained some rather strange habits of his as well as his behavior towards colleagues (which was rarely positive)
+
+Turing was an intellectual/mathematical giant. Still underestimated what he could've meant to  science... Not only for computers but for genetics etc. e.g. https://en.wikipedia.org/wiki/Turing_pattern
+
+It's like killing Einstein at a young age because he was Jewish.
+
+He ate an apple that he poisoned himself is my understanding.
+
+I'd say mostly disappoinment and rage that other humans did this to him. We can always do better and it starts with love
+
+[removed]
+
+And I would bet they use a lot of external libraries that actually say they have.to share their sources too 😛
+
+To be honest, I die laughing every time I watch it
+
+Ok, you convinced me.
+
+Same
+
+[removed]
+
+Indeed.
+
+It was the premise of Caprica.
+
+Im stealing this
+
+Have you ever been at a museum late at night and all the exhibits came to life on the same night robbers broke in to steal a priceless artifact but then it turns out the robbers are the rightful owners of that artifact and they were bringing it back to their home where it belongs and it turns out that artifact is what's brining the exhibits to life and then the real bad guy steals it and takes it to the History's Greatest Villains wax figure exhibit to bring them to life?
+
+Why bring sexuality and religion into this ? Is this some kind of cognitive trick ? I really don't get it.
+
+Being chemically castrated, sexually and romantically repressed on top of holding such a huge secret as having had to choose when to save lives or not during WW2, I don't think you need much more to find reasons why he may have behaved strangely... It could also be that the whole "personality disorder" storyline was born in a time when being gay qualified as such, and that's what it'd be referencing.
+
+Agreed. The world was robbed of a brilliant man in his prime simply because of homophobia. He deserved so much better.
+
+[removed]
+
+[removed]
+
+Which was a bit underrated imho
+
+Maybe go learn a bit more about him.
+
+I mean it could be, I remember it being something beforehand though, it was something like extreme OCD or something along those lines and it caused him to be very short with people because he hated stuff being out of place. But I get what you mean he definitely had some issues from his stress as well.
+
+Religion is a plague 
+
+It’s caused so much hurt with its texts
+
+[removed]
+
+[removed]
+
+[deleted]
+
+[removed]
+
+[removed]
+
+Yeah, I understand how I came across in the first one, I’ll take the downvotes for that sorry, anyway yeah, that’s what I was talking about, and it was that in part that caused him to do a lot of weird stuff like apparently handcuffing his mug to his desk to that people wouldn’t move it?
+
+[removed]
+
+It could have been the other way around, that he was so bat shit crazy that they had to figure out a convenient way to get rid of him, and thus charged him with that homo stuff. Could be he just knew too much.
+
+[removed]
+
+================================================================================
+
