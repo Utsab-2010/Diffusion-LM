@@ -1,5 +1,5 @@
 # Diffusion-LM
-This repository consists of my work and experimentations while trying to implement a Diffusion based Language Model(LM) from scratch. 
+This repository contains my work and experimentation in implementing a Diffusion-based Language Model (Diffusion-LM) from scratch.
 
 ![Diffusion-process](images/diffusion.png)
 ### Tasks Achieved:
