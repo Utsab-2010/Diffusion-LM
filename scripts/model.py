@@ -7,11 +7,11 @@ import math
 class GPT2Attention(nn.Module):
     def __init__(self, config):
         super().__init__()
-        self.c_attn = nn.Linear(config.n_embed, 3 * config.n_embed)
-        self.c_proj = nn.Linear(config.n_embed, config.n_embed)
+        self.c_attn = nn.Linear(config.n_latent, 3 * config.n_latent)
+        self.c_proj = nn.Linear(config.n_latent, config.n_latent)
         self.n_head = config.n_head
         self.n_embed = config.n_embed
-        
+        self.n_latent = config.n_latent
         # Create a causal mask (lower triangular matrix) and register it as a buffer
         # A buffer is not a parameter, but is saved with the model state_dict
         self.register_buffer("bias", torch.tril(torch.ones(config.n_context, config.n_context))
@@ -22,7 +22,7 @@ class GPT2Attention(nn.Module):
         
         # Calculate query, key, values for all heads in batch
         qkv = self.c_attn(x)
-        q, k, v = qkv.split(self.n_embed, dim=2)
+        q, k, v = qkv.split(self.n_latent, dim=2)
         
         # Reshape for multi-head attention: (B, nh, T, hs)
         k = k.view(B, T, self.n_head, C // self.n_head).transpose(1, 2)
@@ -51,9 +51,10 @@ class GPT2Attention(nn.Module):
 class GPT2MLP(nn.Module):
     def __init__(self,config):
         super().__init__()
-        self.c_fc = nn.Linear(config.n_embed, 4*config.n_embed)
+        
+        self.c_fc = nn.Linear(config.n_latent, config.mlp_expansion*config.n_latent)
         self.act = nn.GELU(approximate="tanh")
-        self.c_proj = nn.Linear(4*config.n_embed, config.n_embed)
+        self.c_proj = nn.Linear(config.mlp_expansion*config.n_latent, config.n_latent)
 
     def forward(self,x):
         x = self.c_fc(x)
@@ -65,17 +66,21 @@ class GPT2MLP(nn.Module):
 class Block(nn.Module):
     def __init__(self,config):
         super().__init__()
-        
-        self.ln1 = nn.LayerNorm(config.n_embed,eps=1e-5,elementwise_affine=True)
+        self.up_proj = nn.Linear(config.n_embed, config.n_latent)
+        self.down_proj = nn.Linear(config.n_latent, config.n_embed)
+
+        self.ln1 = nn.LayerNorm(config.n_latent,eps=1e-5,elementwise_affine=True)
         self.attn = GPT2Attention(config)
-        self.ln2 = nn.LayerNorm(config.n_embed,eps=1e-5,elementwise_affine=True)
+        self.ln2 = nn.LayerNorm(config.n_latent,eps=1e-5,elementwise_affine=True)
         self.mlp = GPT2MLP(config)
 
     def forward(self,x):
-        x = x + self.attn(self.ln1(x))
-        x = x + self.mlp(self.ln2(x))
-        return x
 
+        h = self.up_proj(x)
+        h = h + self.attn(self.ln1(h))
+        h = h + self.mlp(self.ln2(h))
+        
+        return x + self.down_proj(h)
 
 class SinusoidalPositionEmbeddings(nn.Module):
     def __init__(self, dim):

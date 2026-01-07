@@ -210,7 +210,7 @@ def reverse_diffusion_with_viz(model, alpha_bars, T, tokenizer, context_length=6
             x0_pred = model.denoiser(x_t, t_tensor)
             
             # Apply clamping in later timesteps
-            if t_step > clamping_start * T:
+            if t_step < clamping_start * T:
                 x0_clamped_tokens = finalize_tokens(x0_pred, model.embedding.embed.weight)
                 x0_clamped = model.embedding(x0_clamped_tokens)
             else:
@@ -240,7 +240,7 @@ def reverse_diffusion_with_viz(model, alpha_bars, T, tokenizer, context_length=6
             # Display current state
             print(f"{Colors.BOLD}Timestep:{Colors.RESET} {Colors.YELLOW}{t_step:4d}{Colors.RESET}/{T}  │  "
                   f"{Colors.BOLD}Step:{Colors.RESET} {Colors.CYAN}{current_step:4d}{Colors.RESET}/{total_steps}  │  "
-                  f"{Colors.BOLD}Phase:{Colors.RESET} {Colors.MAGENTA}{'Clamping' if t_step > clamping_start * T else 'Refining'}{Colors.RESET}")
+                  f"{Colors.BOLD}Phase:{Colors.RESET} {Colors.MAGENTA}{'Clamping' if t_step < clamping_start * T else 'Refining'}{Colors.RESET}")
             print(print_progress_bar(current_step, total_steps))
             print()
             print(f"{Colors.BOLD}{Colors.BLUE}Generated Text:{Colors.RESET}")
@@ -249,6 +249,11 @@ def reverse_diffusion_with_viz(model, alpha_bars, T, tokenizer, context_length=6
             
             # Small delay for visual effect (remove for max speed)
             time.sleep(0.01)
+    
+    # Generate final output from x_t (AFTER the loop completes)
+    generated_tokens = finalize_tokens(x_t, model.embedding.embed.weight)
+    generated_text = tokenizer.decode(generated_tokens[0].tolist())
+    generated_text_clean = tokenizer.clean_text(generated_text)
     
     # Final output
     clear_lines(display_lines)
@@ -265,11 +270,11 @@ def reverse_diffusion_with_viz(model, alpha_bars, T, tokenizer, context_length=6
 
 def main():
     # Configuration
-    CHECKPOINT_PATH = "saved_models/checkpoints_1k_50k_e2e/diff_lm_checkpoint.pt"
-    CONTEXT_LENGTH = 32
+    CHECKPOINT_PATH = "saved_models/checkpoints_E2E_v1/diff_lm_checkpoint.pt"
+    CONTEXT_LENGTH = 64
     BATCH_SIZE = 1
-    CLAMPING_START = 0.8
-    SKIP_STEP = 10  # Sample every N timesteps for faster inference
+    CLAMPING_START = 0.5
+    SKIP_STEP = 5  # Sample every N timesteps for faster inference
     
     # Setup
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
