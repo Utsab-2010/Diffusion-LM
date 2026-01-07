@@ -140,7 +140,14 @@ def load_model(checkpoint_path, device):
         T = checkpoint['T']
         
         model = DiffusionLM(config).to(device)
-        model.load_state_dict(checkpoint['model_state_dict'])
+        
+        # Handle compiled model state_dict (with _orig_mod. prefix)
+        state_dict = checkpoint['model_state_dict']
+        if any(key.startswith('_orig_mod.') for key in state_dict.keys()):
+            print(f"{Colors.GRAY}  Detected compiled model, removing '_orig_mod.' prefix...{Colors.RESET}")
+            state_dict = {key.replace('_orig_mod.', ''): value for key, value in state_dict.items()}
+        
+        model.load_state_dict(state_dict)
         model.eval()
         
         print(f"{Colors.GREEN}✓ Model loaded successfully{Colors.RESET}")
@@ -258,8 +265,8 @@ def reverse_diffusion_with_viz(model, alpha_bars, T, tokenizer, context_length=6
 
 def main():
     # Configuration
-    CHECKPOINT_PATH = "saved_models/checkpoints_1k_75k_ROCStories/diff_lm_checkpoint.pt"
-    CONTEXT_LENGTH = 64
+    CHECKPOINT_PATH = "saved_models/checkpoints_1k_50k_e2e/diff_lm_checkpoint.pt"
+    CONTEXT_LENGTH = 32
     BATCH_SIZE = 1
     CLAMPING_START = 0.8
     SKIP_STEP = 10  # Sample every N timesteps for faster inference
