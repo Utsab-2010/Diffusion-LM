@@ -22,10 +22,14 @@ This repository contains my work and experimentation in implementing a Diffusion
   </tr>
 </table>
 
+### Plot of E2E training after 20k epochs with T=1000
+<img src="images/emb_spc.png" alt="E2E Training" width="750"/>
+
+<!-- 
 <div align="center">
   <img src="images/output1.jpeg" alt="E2E training inference"/>
   <p><i>E2E dataset inference after training for 50k epochs with 1k time steps</i></p>
-</div>
+</div> -->
 
 ## TO-DOs:
 - Explore Anchoring and Discrete Diffusion methods
