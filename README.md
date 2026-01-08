@@ -1,16 +1,15 @@
 # Diffusion-LM
-This repository contains my work and experimentation in implementing a Diffusion-based Language Model (Diffusion-LM) from scratch. 
+This repository contains my work and experimentation in implementing a Diffusion-based (Small) Language Model (Diffusion-LM) from scratch. 
 
 ![Diffusion-process](images/diffusion.png)
 ## Tasks Achieved:
 - Implemented GPT2 following Karpathy's Tutorial
-- Trained on the ROCStories Dataset.
 - Implemented a very basic version of [Diffusion-LM](https://arxiv.org/abs/2205.14217)
-- Added 2D and 3D embedding space visuals suing t-SME and PCA
-- Improved Diffusion Training via fix training data.
-- Trained on E2E dataset
+- Added 2D embedding space visuals using t-SNE along with POS based color-coding. 
+- Improved Diffusion Training by fixing training data.
+- Training on E2E dataset and ROCStories.
 
-### Some Fun Stuff
+### Some Weird t-SNE Plots of Embedding Space
 <table>
   <tr>
     <td><img src="images/spiral_2.png" alt="Spiral 2" width="250"/></td>
@@ -30,5 +29,6 @@ This repository contains my work and experimentation in implementing a Diffusion
 
 ## TO-DOs:
 - Explore Anchoring and Discrete Diffusion methods
-- Benchmark with GPT2 on the ROCStories Dataset.
-- Document the work and organise the workspace/scripts
+- Benchmark with GPT2 on the E2E and ROCStories Dataset.
+- Benchmark using HF Diffusion SLMs on the same datasets.
+- Try to beat/match SOTA!

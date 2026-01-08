@@ -35,7 +35,7 @@ class GPT2Attention(nn.Module):
         att = att - att.max(dim=-1, keepdim=True)[0]
         att = torch.clamp(att, min=-50.0, max=50.0)
         att = F.softmax(att, dim=-1)
-        att = torch.nan_to_num(att, nan=0.0, posinf=0.0, neginf=0.0)
+        att = torch.nan_to_num(att, nan=0.0, posinf=5.0, neginf=-5.0)
         # --- MASKING STARTS HERE ---
         # Apply the causal mask: fill "future" positions with -infinity
         # This makes their softmax probability zero.
@@ -72,16 +72,17 @@ class Block(nn.Module):
         self.up_proj = nn.Linear(config.n_embed, config.n_latent)
         self.down_proj = nn.Linear(config.n_latent, config.n_embed)
 
-        self.ln1 = nn.LayerNorm(config.n_latent,eps=1e-5,elementwise_affine=True)
+        self.ln1 = nn.LayerNorm(config.n_latent,eps=1e-4,elementwise_affine=True)
         self.attn = GPT2Attention(config)
-        self.ln2 = nn.LayerNorm(config.n_latent,eps=1e-5,elementwise_affine=True)
+        self.ln2 = nn.LayerNorm(config.n_latent,eps=1e-4,elementwise_affine=True)
         self.mlp = GPT2MLP(config)
 
     def forward(self,x):
 
         h = self.up_proj(x)
-        h = h + self.attn(self.ln1(h))
-        h = h + self.mlp(self.ln2(h))
+        # BERT-style post-norm: LayerNorm after residual connection
+        h = self.ln1(h + self.attn(h))
+        h = self.ln2(h + self.mlp(h))
         
         return x + self.down_proj(h)
 
@@ -122,7 +123,7 @@ class Denoiser(nn.Module):
             wpe = nn.Embedding(config.n_context,config.n_embed),
             drop = nn.Dropout(0.1,inplace=False),
             h = nn.ModuleList(Block(config) for _ in range(config.n_layer)),
-            ln_f = nn.LayerNorm(config.n_embed,eps=1e-5,elementwise_affine=True)
+            ln_f = nn.LayerNorm(config.n_embed,eps=1e-4,elementwise_affine=True)
         ))
         
         # self.lm_head = nn.Linear(config.n_embed, config.n_vocab, bias=False)
@@ -157,6 +158,10 @@ class Denoiser(nn.Module):
         
         # we want to predict the starting sequence before the noising part.
         x = self.small_mlp(x)  # (B,T,C)
+        
+        # Final NaN guard
+        x = torch.clamp(x, -5.0, 5.0)
+        x = torch.nan_to_num(x, nan=0.0, posinf=5.0, neginf=-5.0)
         
         return x
 
