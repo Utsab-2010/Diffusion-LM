@@ -32,13 +32,16 @@ class GPT2Attention(nn.Module):
         # Scaled dot-product attention
         att = (q @ k.transpose(-2, -1)) * (1.0 / (k.size(-1) ** 0.5))
         
+        att = att - att.max(dim=-1, keepdim=True)[0]
+        att = torch.clamp(att, min=-50.0, max=50.0)
+        att = F.softmax(att, dim=-1)
+        att = torch.nan_to_num(att, nan=0.0, posinf=0.0, neginf=0.0)
         # --- MASKING STARTS HERE ---
         # Apply the causal mask: fill "future" positions with -infinity
         # This makes their softmax probability zero.
         # att = att.masked_fill(self.bias[:, :, :T, :T] == 0, float('-inf'))
         # --- MASKING ENDS HERE ---
 
-        att = F.softmax(att, dim=-1)
         y = att @ v # (B, nh, T, hs)
         
         # Re-assemble all head outputs side-by-side
