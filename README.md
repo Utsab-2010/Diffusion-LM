@@ -23,7 +23,7 @@ This repository contains my work and experimentation in implementing a Diffusion
 </table>
 
 ### Plot of E2E training after 20k epochs with T=1000
-<img src="images/emb_spc.png" alt="E2E Training" width="750"/>
+<img src="images/emd_spc_30k.png" alt="E2E Training" width="750"/>
 
 <!-- 
 <div align="center">
