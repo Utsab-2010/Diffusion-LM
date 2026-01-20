@@ -40,10 +40,14 @@ class MyTokenizer:
             text = text.replace(tok, "")
         return text
     
-    def encode(self, text, max_len=None):
+    def encode(self, text, max_len=None,raw=False):
         if max_len is None:
             max_len = self.max_len
         ids = self.tokenizer.encode(text, allowed_special=set())
+        
+        if raw :
+            return ids
+
         ids = [self.special_tokens["<bos>"]] + ids + [self.special_tokens["<eos>"]]
 
         if len(ids) > max_len:
@@ -172,6 +176,126 @@ def finalize_tokens(x0_final, embedding_weights):
     distances = torch.cdist(x0_final, embedding_weights.unsqueeze(0), p=2)
     token_ids = torch.argmin(distances, dim=-1)
     return token_ids
+
+
+def infer_test_infilling(model, config, tokenizer, train_encoded, alpha_bars, T, 
+                         num_anchors=2, clamping_start=0.4, skip_step=1, 
+                         display_at_steps=None, device='cuda'):
+    model.eval()
+    
+    # Sample a random sequence from training data
+    sample_idx = torch.randint(0, len(train_encoded), (1,)).item()
+    sample_tokens = train_encoded[sample_idx].to(device)
+    context_length = len(sample_tokens)
+    
+    # Randomly select anchor positions (avoid special tokens at start/end)
+    valid_positions = list(range(1, context_length - 1))
+    anchor_positions = sorted(torch.randint(0, len(valid_positions), (num_anchors,)).tolist())
+    anchor_positions = [valid_positions[i] for i in anchor_positions]
+    
+    # Get anchor embeddings and freeze them
+    with torch.no_grad():
+        anchor_tokens = sample_tokens[anchor_positions]
+        anchor_embeddings = model.embedding(anchor_tokens.unsqueeze(0)).squeeze(0)  # (num_anchors, n_embed)
+    
+    # Initialize with pure noise
+    x_t = torch.randn(1, context_length, config.n_embed, device=device)
+    
+    # Place anchors in their fixed positions
+    for i, pos in enumerate(anchor_positions):
+        x_t[0, pos] = anchor_embeddings[i]
+    
+    if display_at_steps is None:
+        display_at_steps = [1]
+    
+    print(f"\n{'='*70}")
+    print(f"Starting Infilling with Fixed Anchors")
+    print(f"{'='*70}")
+    print(f"Total Timesteps: {T} | Context Length: {context_length}")
+    print(f"Number of Anchors: {num_anchors} at positions {anchor_positions}")
+    print(f"Clamping Start: {clamping_start*100:.0f}% | Skip Step: {skip_step}")
+    print(f"{'='*70}\n")
+    
+    # Display original sample
+    original_text = tokenizer.decode(sample_tokens.tolist())
+    original_text_clean = tokenizer.clean_text(original_text)
+    print(f"📄 Original Sample:")
+    print(f"{original_text_clean}")
+    print(f"{'-'*70}\n")
+    
+    # Display anchor tokens
+    anchor_text_parts = []
+    for i, pos in enumerate(anchor_positions):
+        token_text = tokenizer.decode([anchor_tokens[i].item()])
+        anchor_text_parts.append(f"pos {pos}: '{token_text.strip()}'")
+    print(f"🔒 Fixed Anchors: {', '.join(anchor_text_parts)}")
+    print(f"{'-'*70}\n")
+    
+    # Display initial state
+    initial_tokens = finalize_tokens(x_t, model.embedding.embed.weight)
+    initial_text = tokenizer.decode(initial_tokens[0].tolist())
+    initial_text_clean = tokenizer.clean_text(initial_text)
+    print(f"🌀 Initial State (t={T}, Noise + Anchors):")
+    print(f"{initial_text_clean}")
+    print(f"{'-'*70}\n")
+    
+    # Reverse diffusion with anchors fixed
+    with torch.no_grad():
+        for t_step in range(T, 0, -1):
+            if t_step % skip_step == 0 or t_step == T:
+                pass
+            else:
+                continue
+            
+            t_tensor = torch.tensor([t_step], device=device)
+            x0_pred = model.denoiser(x_t, t_tensor)
+            
+            # Apply clamping if below threshold
+            if t_step < clamping_start * T:
+                x0_clamped_tokens = finalize_tokens(x0_pred, model.embedding.embed.weight)
+                x0_clamped = model.embedding(x0_clamped_tokens)
+            else:
+                x0_clamped = x0_pred
+            
+            # Restore anchors in prediction
+            for i, pos in enumerate(anchor_positions):
+                x0_clamped[0, pos] = anchor_embeddings[i]
+            
+            # Add noise for next step
+            epsilon = torch.randn_like(x_t)
+            
+            if t_step > 1:
+                x_t = torch.sqrt(alpha_bars[t_step - 1]) * x0_clamped + \
+                      torch.sqrt(1 - alpha_bars[t_step - 1]) * epsilon
+            else:
+                x_t = x0_clamped
+            
+            # Keep anchors fixed in x_t
+            for i, pos in enumerate(anchor_positions):
+                x_t[0, pos] = anchor_embeddings[i]
+            
+            # Display intermediate states
+            if t_step in display_at_steps and t_step != T:
+                generated_tokens = finalize_tokens(x0_clamped, model.embedding.embed.weight)
+                generated_text = tokenizer.decode(generated_tokens[0].tolist())
+                generated_text_clean = tokenizer.clean_text(generated_text)
+                
+                phase = "🔒 Clamping" if t_step < clamping_start * T else "✨ Refining"
+                print(f"{phase} Intermediate State (t={t_step}):")
+                print(f"{generated_text_clean}")
+                print(f"{'-'*70}\n")
+    
+    # Finalize output
+    generated_tokens = finalize_tokens(x_t, model.embedding.embed.weight)
+    generated_text = tokenizer.decode(generated_tokens[0].tolist())
+    generated_text_clean = tokenizer.clean_text(generated_text)
+    
+    print(f"{'='*70}")
+    print(f"✅ Final Infilled Output:")
+    print(f"{generated_text_clean}")
+    print(f"{'='*70}\n")
+    
+    return generated_tokens, generated_text_clean, anchor_positions
 
 
 def reverse_diffusion_with_clamping(model, config, tokenizer, alpha_bars, T, context_length=50, 
