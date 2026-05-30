@@ -153,10 +153,10 @@ def posterior_mean(x_t, x0, t, alpha_bars, alphas):
 
 
 def rounding_weight(it, max_iters, round_start=None, round_warmup=None, round_max_weight=0.4):
-    if round_start is None:
-        round_start = int(0.2 * max_iters)
-    if round_warmup is None:
-        round_warmup = int(0.5 * max_iters)
+    # if round_start is None:
+    #     round_start = int(0.2 * max_iters)
+    # if round_warmup is None:
+    #     round_warmup = int(0.5 * max_iters)
     
     return 1
     k = 10 / round_warmup 

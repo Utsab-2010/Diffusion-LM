@@ -32,10 +32,10 @@ class GPT2Attention(nn.Module):
         # Scaled dot-product attention
         att = (q @ k.transpose(-2, -1)) * (1.0 / (k.size(-1) ** 0.5))
         
-        att = att - att.max(dim=-1, keepdim=True)[0]
-        att = torch.clamp(att, min=-50.0, max=50.0)
+        # att = att - att.max(dim=-1, keepdim=True)[0]
+        # att = torch.clamp(att, min=-50.0, max=50.0)
         att = F.softmax(att, dim=-1)
-        att = torch.nan_to_num(att, nan=0.0, posinf=5.0, neginf=-5.0)
+        # att = torch.nan_to_num(att, nan=0.0, posinf=5.0, neginf=-5.0)
         # --- MASKING STARTS HERE ---
         # Apply the causal mask: fill "future" positions with -infinity
         # This makes their softmax probability zero.
@@ -69,8 +69,8 @@ class GPT2MLP(nn.Module):
 class Block(nn.Module):
     def __init__(self,config):
         super().__init__()
-        self.up_proj = nn.Linear(config.n_embed, config.n_latent)
-        self.down_proj = nn.Linear(config.n_latent, config.n_embed)
+        # self.up_proj = nn.Linear(config.n_embed, config.n_latent)
+        # self.down_proj = nn.Linear(config.n_latent, config.n_embed)
 
         self.ln1 = nn.LayerNorm(config.n_latent,eps=1e-4,elementwise_affine=True)
         self.attn = GPT2Attention(config)
@@ -78,14 +78,14 @@ class Block(nn.Module):
         self.mlp = GPT2MLP(config)
 
     def forward(self,x):
-
-        h = self.up_proj(x)
+        h = x
+        # h = self.up_proj(x)
         # BERT-style post-norm: LayerNorm after residual connection
         h = self.ln1(h + self.attn(h))
         h = self.ln2(h + self.mlp(h))
         
-        return x + self.down_proj(h)
-
+        # return x + self.down_proj(h)
+        return h
 class SinusoidalPositionEmbeddings(nn.Module):
     def __init__(self, dim):
         super().__init__()
@@ -130,9 +130,15 @@ class Denoiser(nn.Module):
 
         self.small_mlp = nn.Linear(config.n_embed, config.n_embed)
 
+        self.output_proj = nn.Sequential(
+            nn.Linear(config.n_embed, config.n_embed * 4),
+            nn.GELU(),
+            nn.Linear(config.n_embed * 4, config.n_embed),
+        )
+
         self.time_embed = nn.Sequential(
-            SinusoidalPositionEmbeddings(config.n_embed),
-            nn.Linear(config.n_embed, config.n_embed),
+            SinusoidalPositionEmbeddings(config.n_latent),
+            nn.Linear(config.n_latent, config.n_latent),
             nn.GELU()
             )
 
@@ -144,24 +150,24 @@ class Denoiser(nn.Module):
         x = input_embeddings +  self.transformer.wpe(pos)  # (B,T,C) pytorch does braodcasting for the position embeddingss and adds them to the token embeddings 
         
         time_emb = self.time_embed(time_step) # (B, C)
-        x= x + time_emb.unsqueeze(1)  # (B, T, C)
+        # x= x + time_emb.unsqueeze(1)  # (B, T, C)
         
         x = self.transformer.drop(x)
 
 
         for block in self.transformer.h:
-            x = block(x)
+            x = block(x + time_emb.unsqueeze(1))  # (B,T,C) add time embedding at each block
 
         x = self.transformer.ln_f(x)  # (B,T,C)
         # logits = self.lm_head(x)  # (B,T,vocab_size) 
         # we don't need the head since we are not doing autoregressive language modeling
         
         # we want to predict the starting sequence before the noising part.
-        x = self.small_mlp(x)  # (B,T,C)
+        x = self.output_proj(x)  # (B,T,C)
         
         # Final NaN guard
-        x = torch.clamp(x, -5.0, 5.0)
-        x = torch.nan_to_num(x, nan=0.0, posinf=5.0, neginf=-5.0)
+        # x = torch.clamp(x, -5.0, 5.0)
+        # x = torch.nan_to_num(x, nan=0.0, posinf=5.0, neginf=-5.0)
         
         return x
 
