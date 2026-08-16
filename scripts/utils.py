@@ -12,7 +12,7 @@ from sklearn.decomposition import PCA
 import numpy as np
 from collections import Counter
 import subprocess
-import spacy
+# import spacy
 
 from .model import DiffusionLM
 

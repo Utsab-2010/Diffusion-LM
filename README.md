@@ -36,3 +36,6 @@ This repository contains my work and experimentation in implementing a Diffusion
 - Benchmark with GPT2 on the E2E and ROCStories Dataset.
 - Benchmark using HF Diffusion SLMs on the same datasets.
 - Try to beat/match SOTA!
+
+## Issues:
+- In the Diffusion-LM training, the padding tokens seem to be providing a spurious shortcut to minimizing the objective. Need to figure out of way to mask that. It has been observed that during inference the text sequence is quite small even if the noisy intial one is fully text with majority of the sequence being occupied by padding tokens at the end.

@@ -69,8 +69,8 @@ class GPT2MLP(nn.Module):
 class Block(nn.Module):
     def __init__(self,config):
         super().__init__()
-        # self.up_proj = nn.Linear(config.n_embed, config.n_latent)
-        # self.down_proj = nn.Linear(config.n_latent, config.n_embed)
+        self.up_proj = nn.Linear(config.n_embed, config.n_latent)
+        self.down_proj = nn.Linear(config.n_latent, config.n_embed)
 
         self.ln1 = nn.LayerNorm(config.n_latent,eps=1e-4,elementwise_affine=True)
         self.attn = GPT2Attention(config)
@@ -78,14 +78,14 @@ class Block(nn.Module):
         self.mlp = GPT2MLP(config)
 
     def forward(self,x):
-        h = x
-        # h = self.up_proj(x)
+        # h = x
+        h = self.up_proj(x)
         # BERT-style post-norm: LayerNorm after residual connection
         h = self.ln1(h + self.attn(h))
         h = self.ln2(h + self.mlp(h))
         
-        # return x + self.down_proj(h)
-        return h
+        return x + self.down_proj(h)
+        # return h
 class SinusoidalPositionEmbeddings(nn.Module):
     def __init__(self, dim):
         super().__init__()
@@ -137,8 +137,8 @@ class Denoiser(nn.Module):
         )
 
         self.time_embed = nn.Sequential(
-            SinusoidalPositionEmbeddings(config.n_latent),
-            nn.Linear(config.n_latent, config.n_latent),
+            SinusoidalPositionEmbeddings(config.n_embed),
+            nn.Linear(config.n_embed, config.n_embed),
             nn.GELU()
             )
 
@@ -156,6 +156,7 @@ class Denoiser(nn.Module):
 
 
         for block in self.transformer.h:
+            # print(x.shape,time_emb.shape)
             x = block(x + time_emb.unsqueeze(1))  # (B,T,C) add time embedding at each block
 
         x = self.transformer.ln_f(x)  # (B,T,C)
@@ -173,17 +174,32 @@ class Denoiser(nn.Module):
 
 
 class Decoding(nn.Module):
-    def __init__(self,config):
+    def __init__(self,config,embedding_weight):
         super().__init__()
     # takes x0 (B,T,C) and give a softmax over vocab size           
-        self.l1 = nn.Linear(config.n_embed, config.n_vocab, bias=False)
-        
-        
-    def forward(self,x):
-        x = self.l1(x)
-        # x = F.softmax(x,dim=-1)
+        # self.l1 = nn.Linear(config.n_embed, config.n_vocab, bias=False)
+        self.d = config.n_embed
+        self.embedding_weight = embedding_weight
+        self.sigma_0 = 0.1
 
-        return x
+    def forward(self,x):
+
+        # x = self.l1 (x)
+        # x = F.softmax(x,dim=-1)
+        # d = config.n_embed
+        x0_sq = (x**2).sum(dim=-1,keepdim=True)  # (B,T,1)
+
+        emb_sq = (self.embedding_weight**2).sum(dim=-1,keepdim=True) # (V,1)
+        emb_sq = emb_sq.view(1,1,-1)  # (1,1,V)
+
+        cross = torch.matmul(x, self.embedding_weight.t())  # (B,T,V)
+        dist_sq = (x0_sq - 2 * cross + emb_sq)/self.d                               # (B, T, V)
+        logits = -dist_sq / (2 * (self.sigma_0 ** 2))                      # (B, T, V)
+        
+        return logits
+
+
+        # return x
 
 class DiffusionLM(nn.Module):
     def __init__(self,config):
@@ -191,11 +207,11 @@ class DiffusionLM(nn.Module):
         self.config = config
         self.embedding = LMEmbedding(config)
         self.denoiser = Denoiser(config)
-        self.decoder = Decoding(config)
+        self.decoder = Decoding(config,self.embedding.embed.weight)
         
     def forward(self,input_ids,time_step, targets=None):
         input_embeddings = self.embedding(input_ids)  # (B,T,C)
         x = self.denoiser(input_embeddings,time_step, targets)  # (B,T,C)
-        logits = x@self.embedding.embed.weight.T  # (B,T,vocab_size)
-        
+        # logits = x@self.embedding.embed.weight.T  # (B,T,vocab_size)
+        logits = self.decoder(x) # (B,T,vocab_size)
         return x, logits
